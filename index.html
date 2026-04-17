@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Bay Apt Hunt — June 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+  :root {
+    --ink: #1a1714;
+    --ink-2: #3a352f;
+    --paper: #f6f1e8;
+    --paper-2: #efe7d7;
+    --card: #fffdf7;
+    --line: #d9cfb8;
+    --accent: #b8491f;
+    --accent-ink: #83320e;
+    --sage: #5a7a5f;
+    --amber: #c68b2b;
+    --bad: #a83838;
+    --ok: #3c7a4b;
+    --shadow: 0 1px 0 rgba(0,0,0,.04), 0 8px 24px -12px rgba(0,0,0,.12);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  body { background-image: radial-gradient(ellipse at top left, #f7ecd4 0%, var(--paper) 50%); min-height: 100vh; }
+  a { color: var(--accent-ink); }
+  .serif { font-family: 'Instrument Serif', 'Times New Roman', serif; font-weight: 400; letter-spacing: -0.01em; }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }
+
+  .wrap { max-width: 1440px; margin: 0 auto; padding: 28px 32px 120px; }
+
+  header.hero { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .hero h1 { font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 64px; margin: 0; line-height: 0.95; letter-spacing: -0.02em; }
+  .hero h1 em { color: var(--accent); font-style: italic; }
+  .hero p { margin: 6px 0 0; color: var(--ink-2); font-size: 14px; }
+  .hero .meta { text-align: right; font-size: 12px; color: var(--ink-2); font-family: 'JetBrains Mono', monospace; }
+  .hero .meta b { color: var(--ink); display:block; font-size: 22px; font-family: 'Instrument Serif', serif; font-weight: 400; }
+
+  .counts { display: inline-flex; gap: 18px; padding: 14px 0; font-size: 13px; color: var(--ink-2); }
+  .counts b { color: var(--ink); font-family: 'JetBrains Mono', monospace; margin-right: 4px; }
+
+  .filter-bar { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 0 18px; align-items: center; border-bottom: 1px dashed var(--line); }
+  .chip { background: transparent; border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; font-size: 12px; font-weight: 500; cursor: pointer; color: var(--ink-2); transition: all .15s; font-family: inherit; letter-spacing: 0.01em; }
+  .chip:hover { border-color: var(--ink-2); color: var(--ink); }
+  .chip.on { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .chip.area.on { background: var(--accent); border-color: var(--accent); }
+  .chip .n { opacity: 0.6; margin-left: 6px; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+  .sep { width: 1px; height: 18px; background: var(--line); margin: 0 6px; }
+  .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-2); margin-right: 6px; font-weight: 600; }
+
+  .sort { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  .sort select { border: 1px solid var(--line); background: var(--card); border-radius: 6px; padding: 6px 10px; font: inherit; font-size: 12px; color: var(--ink); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 24px; padding-top: 24px; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; position: relative; transition: transform .15s, box-shadow .15s; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 2px 0 rgba(0,0,0,.04), 0 18px 40px -18px rgba(0,0,0,.2); }
+  .card.eliminated { opacity: 0.38; filter: grayscale(0.6); }
+  .card.fav { border-color: var(--amber); box-shadow: 0 0 0 2px rgba(198, 139, 43, .18), var(--shadow); }
+
+  .photo-reel { position: relative; aspect-ratio: 4/3; background: #2a2722; overflow: hidden; }
+  .photo-reel img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .25s; }
+  .photo-reel img.on { opacity: 1; }
+  .photo-reel .ph-nav { position: absolute; inset: 0; display: flex; }
+  .photo-reel .ph-nav span { flex: 1; cursor: pointer; }
+  .photo-reel .dots { position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); display: flex; gap: 4px; padding: 4px 8px; background: rgba(0,0,0,.35); border-radius: 10px; }
+  .photo-reel .dots i { width: 4px; height: 4px; border-radius: 50%; background: rgba(255,255,255,.45); }
+  .photo-reel .dots i.on { background: #fff; }
+  .photo-reel .ribbon { position: absolute; top: 10px; left: 10px; background: var(--accent); color: #fff; font-size: 10px; padding: 4px 8px; border-radius: 4px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+  .photo-reel .noph { position: absolute; inset: 0; display: grid; place-items: center; color: #887; font-size: 12px; font-family: 'JetBrains Mono', monospace; }
+
+  .card .body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .card .row1 { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  .card .name { font-family: 'Instrument Serif', serif; font-size: 24px; line-height: 1.05; margin: 0; }
+  .card .company { font-size: 11px; color: var(--ink-2); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+  .card .rent { text-align: right; }
+  .card .rent .eff { font-family: 'Instrument Serif', serif; font-size: 26px; color: var(--accent-ink); line-height: 1; }
+  .card .rent .base { font-size: 11px; color: var(--ink-2); text-decoration: line-through; }
+  .card .rent .concess { font-size: 10px; background: #fff4db; color: #8a5d0e; padding: 2px 6px; border-radius: 3px; margin-top: 3px; display: inline-block; }
+
+  .card .addr { font-size: 13px; color: var(--ink-2); }
+  .card .neighborhood { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--sage); font-weight: 600; }
+
+  .specs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+  .spec { font-size: 11px; padding: 3px 8px; border-radius: 4px; background: var(--paper-2); color: var(--ink-2); font-family: 'JetBrains Mono', monospace; }
+  .spec.good { background: #e2efe4; color: var(--ok); }
+  .spec.warn { background: #fbecd4; color: #8a5d0e; }
+  .spec.bad { background: #f7e1e1; color: var(--bad); }
+
+  .bart { font-size: 12px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
+  .bart b { color: var(--ink); font-family: 'JetBrains Mono', monospace; }
+  .bart-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--sage); display: inline-block; }
+
+  .safety { font-size: 12px; color: var(--ink-2); font-style: italic; border-left: 2px solid var(--line); padding: 4px 0 4px 10px; margin-top: 2px; }
+
+  .actions { display: flex; gap: 8px; margin-top: auto; padding-top: 10px; border-top: 1px dashed var(--line); }
+  .btn { font: inherit; font-size: 12px; font-weight: 500; padding: 7px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); cursor: pointer; color: var(--ink-2); transition: all .12s; }
+  .btn:hover { border-color: var(--ink-2); color: var(--ink); }
+  .btn.primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .btn.primary:hover { background: var(--accent); border-color: var(--accent); }
+  .btn.star { font-size: 14px; padding: 6px 10px; }
+  .btn.star.on { background: var(--amber); color: #fff; border-color: var(--amber); }
+  .btn.kill { margin-left: auto; color: var(--bad); }
+  .btn.kill:hover { background: var(--bad); color: #fff; border-color: var(--bad); }
+
+  .empty { grid-column: 1 / -1; text-align: center; padding: 60px 0; color: var(--ink-2); }
+  .empty h3 { font-family: 'Instrument Serif', serif; font-size: 28px; margin: 0 0 6px; color: var(--ink); }
+
+  .tray { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .tray h3 { font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 26px; margin: 0 0 10px; }
+  .tray .mini { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tray .mini .m { font-size: 12px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); cursor: pointer; color: var(--ink-2); }
+  .tray .mini .m:hover { color: var(--ink); border-color: var(--ink-2); }
+
+  .loading { padding: 80px 0; text-align: center; color: var(--ink-2); font-family: 'JetBrains Mono', monospace; font-size: 13px; }
+  .loading .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin: 0 3px; animation: pulse 1.2s infinite; }
+  .loading .dot:nth-child(2) { animation-delay: .2s; }
+  .loading .dot:nth-child(3) { animation-delay: .4s; }
+  @keyframes pulse { 0%,60%,100% { opacity: 0.2; transform: scale(0.8);} 30% { opacity: 1; transform: scale(1); } }
+
+  .status-ring { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 16px 0; }
+  .status-ring .s { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); font-size: 11px; color: var(--ink-2); }
+  .status-ring .s b { display: block; color: var(--ink); font-size: 13px; font-weight: 600; margin-bottom: 2px; }
+  .status-ring .s.done { border-left: 3px solid var(--ok); }
+  .status-ring .s.pending { border-left: 3px solid var(--amber); }
+
+  @media (max-width: 720px) {
+    .hero { flex-direction: column; align-items: flex-start; }
+    .hero h1 { font-size: 44px; }
+    .hero .meta { text-align: left; }
+    .wrap { padding: 20px 16px 80px; }
+    .status-ring { grid-template-columns: repeat(2, 1fr); }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useMemo, useCallback } = React;
+
+const AREAS = [
+  { key: "Lake Merritt / Adams Point / Grand Lake", short: "Lake Merritt", color: "#b8491f" },
+  { key: "Rockridge / Temescal / Piedmont Ave", short: "Rockridge", color: "#c68b2b" },
+  { key: "Berkeley (Downtown / North Berkeley BART)", short: "Berkeley", color: "#5a7a5f" },
+  { key: "Emeryville / MacArthur BART", short: "Emeryville", color: "#4a6a88" },
+  { key: "Albany / El Cerrito (Plaza & Del Norte BART)", short: "El Cerrito", color: "#8a5d8a" },
+];
+
+const FEATURES = [
+  { key: "dishwasher", label: "Dishwasher", path: "amenities.dishwasher", required: true },
+  { key: "laundry_in_unit", label: "In-unit laundry", path: "amenities.laundry_in_unit" },
+  { key: "laundry_any", label: "Any laundry", path: "_laundry_any" },
+  { key: "patio", label: "Patio/balcony", path: "amenities.patio" },
+  { key: "parking", label: "Parking", path: "amenities.parking" },
+  { key: "ac", label: "AC", path: "amenities.ac" },
+  { key: "concessions", label: "Has concession", path: "_has_concession" },
+];
+
+function getPath(obj, path) {
+  return path.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
+}
+function listingBool(l, path) {
+  if (path === "_laundry_any") return !!(l.amenities?.laundry_in_unit || l.amenities?.laundry_shared);
+  if (path === "_has_concession") return !!l.concessions;
+  return !!getPath(l, path);
+}
+
+function useLocalState(key, init) {
+  const [v, set] = useState(() => {
+    try { const s = localStorage.getItem(key); return s != null ? JSON.parse(s) : init; } catch { return init; }
+  });
+  useEffect(() => { try { localStorage.setItem(key, JSON.stringify(v)); } catch {} }, [key, v]);
+  return [v, set];
+}
+
+function PhotoReel({ photos, name }) {
+  const [i, setI] = useState(0);
+  const ph = photos && photos.length ? photos : [];
+  if (!ph.length) return <div className="photo-reel"><div className="noph">no photos yet</div></div>;
+  return (
+    <div className="photo-reel">
+      {ph.map((u, idx) => (
+        <img key={idx} src={u} className={idx === i ? "on" : ""} alt={name} loading="lazy" onError={(e) => { e.currentTarget.style.display='none'; }} />
+      ))}
+      <div className="ph-nav">
+        <span onClick={() => setI((i - 1 + ph.length) % ph.length)} />
+        <span onClick={() => setI((i + 1) % ph.length)} />
+      </div>
+      <div className="dots">
+        {ph.slice(0, Math.min(ph.length, 8)).map((_, idx) => <i key={idx} className={idx === i ? "on" : ""} />)}
+      </div>
+    </div>
+  );
+}
+
+function Card({ l, eliminated, fav, onKill, onRestore, onFav }) {
+  const bart = l.bart || {};
+  const amen = l.amenities || {};
+  const eff = l.effective_rent || l.rent_monthly;
+  const showConcession = l.concessions && l.effective_rent && l.effective_rent < l.rent_monthly;
+  return (
+    <div className={`card ${eliminated ? 'eliminated' : ''} ${fav ? 'fav' : ''}`}>
+      <PhotoReel photos={l.photos} name={l.name} />
+      <div className="body">
+        <div className="row1">
+          <div>
+            <h3 className="name">{l.name || "Unnamed"}</h3>
+            <div className="company">{l.company || "—"}</div>
+          </div>
+          <div className="rent">
+            <div className="eff">${(eff || 0).toLocaleString()}</div>
+            {showConcession && <div className="base">${l.rent_monthly.toLocaleString()}</div>}
+            {l.concessions && <div className="concess">{l.concessions}</div>}
+          </div>
+        </div>
+        <div className="neighborhood">{l.neighborhood || "—"}</div>
+        <div className="addr">{l.address}</div>
+
+        <div className="specs">
+          <span className="spec">{l.bed}</span>
+          {l.sqft && <span className="spec">{l.sqft} sqft</span>}
+          {amen.dishwasher ? <span className="spec good">dishwasher</span> : <span className="spec bad">no dishwasher</span>}
+          {amen.laundry_in_unit ? <span className="spec good">in-unit laundry</span> : amen.laundry_shared ? <span className="spec warn">shared laundry</span> : <span className="spec">no laundry</span>}
+          {amen.patio && <span className="spec good">patio</span>}
+          {amen.parking && <span className="spec good">parking</span>}
+          {amen.ac && <span className="spec good">AC</span>}
+        </div>
+
+        {bart.station && (
+          <div className="bart">
+            <span className="bart-dot"></span>
+            <span><b>{bart.distance_mi}mi</b> to <b>{bart.station}</b> BART {bart.walk_min ? `· ${bart.walk_min}min walk` : ''}{bart.shuttle ? ` · ${bart.shuttle}` : ''}</span>
+          </div>
+        )}
+
+        {l.pet_policy && (
+          <div className="bart" title="pet policy">
+            <span className="bart-dot" style={{ background: l.pet_policy.cats_allowed ? 'var(--ok)' : 'var(--bad)' }}></span>
+            <span>{l.pet_policy.cats_allowed ? `2 cats ok` : 'cats not allowed'}{l.pet_policy.pet_rent_monthly != null ? ` · $${l.pet_policy.pet_rent_monthly}/mo pet rent` : ''}{l.pet_policy.pet_deposit != null ? ` · $${l.pet_policy.pet_deposit} deposit` : ''}</span>
+          </div>
+        )}
+
+        {l.safety_notes && <div className="safety">{l.safety_notes}</div>}
+
+        <div className="actions">
+          <a className="btn primary" href={l.listing_url} target="_blank" rel="noopener">View listing ↗</a>
+          <button className={`btn star ${fav ? 'on' : ''}`} onClick={onFav} title="Favorite">★</button>
+          {eliminated ? (
+            <button className="btn" onClick={onRestore}>Restore</button>
+          ) : (
+            <button className="btn kill" onClick={onKill}>Eliminate</button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function App() {
+  const [data, setData] = useState(null);
+  const [err, setErr] = useState(null);
+
+  const [areas, setAreas] = useLocalState("aptf.areas", AREAS.map(a => a.key));
+  const [features, setFeatures] = useLocalState("aptf.features", ["dishwasher"]);
+  const [maxEff, setMaxEff] = useLocalState("aptf.maxEff", 2300);
+  const [maxBart, setMaxBart] = useLocalState("aptf.maxBart", 1.0);
+  const [sort, setSort] = useLocalState("aptf.sort", "rent_asc");
+  const [eliminated, setEliminated] = useLocalState("aptf.eliminated", []);
+  const [favs, setFavs] = useLocalState("aptf.favs", []);
+
+  const reload = useCallback(() => {
+    fetch("data.json?t=" + Date.now()).then(r => r.json()).then(setData).catch(e => setErr(String(e)));
+  }, []);
+  useEffect(() => { reload(); }, [reload]);
+
+  const allListings = useMemo(() => {
+    if (!data) return [];
+    const out = [];
+    for (const sec of data.sections || []) {
+      for (const l of sec.listings || []) out.push({ ...l, _area: sec.area });
+    }
+    return out;
+  }, [data]);
+
+  const isFiltered = (l) => {
+    if (!areas.includes(l._area)) return false;
+    for (const f of features) {
+      const meta = FEATURES.find(x => x.key === f);
+      if (meta && !listingBool(l, meta.path)) return false;
+    }
+    const eff = l.effective_rent || l.rent_monthly;
+    if (eff && eff > maxEff) return false;
+    if (l.bart?.distance_mi != null && l.bart.distance_mi > maxBart) return false;
+    return true;
+  };
+
+  const visible = useMemo(() => {
+    const filtered = allListings.filter(isFiltered);
+    const sorted = [...filtered].sort((a, b) => {
+      if (sort === "rent_asc") return (a.effective_rent ?? a.rent_monthly ?? 9e9) - (b.effective_rent ?? b.rent_monthly ?? 9e9);
+      if (sort === "rent_desc") return (b.effective_rent ?? b.rent_monthly ?? 0) - (a.effective_rent ?? a.rent_monthly ?? 0);
+      if (sort === "sqft_desc") return (b.sqft ?? 0) - (a.sqft ?? 0);
+      if (sort === "bart_asc") return (a.bart?.distance_mi ?? 9) - (b.bart?.distance_mi ?? 9);
+      return 0;
+    });
+    return sorted;
+  }, [allListings, areas, features, maxEff, maxBart, sort]);
+
+  const [inlist, outlist] = useMemo(() => {
+    const a = [], b = [];
+    for (const l of visible) (eliminated.includes(l.id) ? b : a).push(l);
+    return [a, b];
+  }, [visible, eliminated]);
+
+  const toggleArea = (k) => setAreas(areas.includes(k) ? areas.filter(x => x !== k) : [...areas, k]);
+  const toggleFeature = (k) => setFeatures(features.includes(k) ? features.filter(x => x !== k) : [...features, k]);
+  const killIt = (id) => setEliminated([...new Set([...eliminated, id])]);
+  const restore = (id) => setEliminated(eliminated.filter(x => x !== id));
+  const toggleFav = (id) => setFavs(favs.includes(id) ? favs.filter(x => x !== id) : [...favs, id]);
+
+  const areaCounts = useMemo(() => {
+    const c = {}; for (const l of allListings) c[l._area] = (c[l._area] || 0) + 1; return c;
+  }, [allListings]);
+
+  return (
+    <div className="wrap">
+      <header className="hero">
+        <div>
+          <h1>Bay Apartment <em>Hunt</em></h1>
+          <p>1BR/studio · 2 cats · dishwasher · BART · move-in June 1, 2026 · coordinated by Juno</p>
+        </div>
+        <div className="meta">
+          generated {data?.generated_at || "—"}<br/>
+          <b>${maxEff.toLocaleString()} ceiling</b>
+        </div>
+      </header>
+
+      {data && (
+        <div className="status-ring">
+          {AREAS.map(a => {
+            const sec = (data.sections || []).find(s => s.area === a.key);
+            const n = sec ? sec.listings.length : 0;
+            return (
+              <div key={a.key} className={`s ${sec ? 'done' : 'pending'}`}>
+                <b style={{ color: a.color }}>{a.short}</b>
+                {sec ? `${n} listing${n !== 1 ? 's' : ''}` : 'team still searching…'}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      <div className="filter-bar">
+        <span className="label">Area</span>
+        {AREAS.map(a => (
+          <button key={a.key} className={`chip area ${areas.includes(a.key) ? 'on' : ''}`} onClick={() => toggleArea(a.key)}>
+            {a.short} <span className="n">{areaCounts[a.key] || 0}</span>
+          </button>
+        ))}
+        <div className="sep"></div>
+        <span className="label">Must have</span>
+        {FEATURES.map(f => (
+          <button key={f.key} className={`chip ${features.includes(f.key) ? 'on' : ''}`} onClick={() => toggleFeature(f.key)}>
+            {f.label}
+          </button>
+        ))}
+        <div className="sort">
+          <span className="label">Price ≤</span>
+          <select value={maxEff} onChange={e => setMaxEff(+e.target.value)}>
+            <option value={1800}>$1,800</option>
+            <option value={2000}>$2,000</option>
+            <option value={2200}>$2,200</option>
+            <option value={2300}>$2,300</option>
+            <option value={2500}>$2,500</option>
+          </select>
+          <span className="label">BART ≤</span>
+          <select value={maxBart} onChange={e => setMaxBart(+e.target.value)}>
+            <option value={0.3}>0.3 mi</option>
+            <option value={0.5}>0.5 mi</option>
+            <option value={0.8}>0.8 mi</option>
+            <option value={1.0}>1 mi</option>
+            <option value={2.0}>2 mi</option>
+          </select>
+          <span className="label">Sort</span>
+          <select value={sort} onChange={e => setSort(e.target.value)}>
+            <option value="rent_asc">Cheapest</option>
+            <option value="rent_desc">Priciest</option>
+            <option value="sqft_desc">Biggest</option>
+            <option value="bart_asc">Closest BART</option>
+          </select>
+        </div>
+      </div>
+
+      <div className="counts">
+        <span><b>{inlist.length}</b> showing</span>
+        <span><b>{outlist.length}</b> eliminated</span>
+        <span><b>{favs.length}</b> starred</span>
+        <span><b>{allListings.length}</b> total gathered</span>
+        <button className="btn" style={{marginLeft:'auto'}} onClick={reload}>⟳ refresh data</button>
+      </div>
+
+      {!data && !err && (
+        <div className="loading">teams are out hunting<span className="dot"></span><span className="dot"></span><span className="dot"></span></div>
+      )}
+      {err && <div className="loading" style={{color:'var(--bad)'}}>failed to load data: {err}</div>}
+
+      <div className="grid">
+        {inlist.map(l => (
+          <Card
+            key={l.id}
+            l={l}
+            eliminated={false}
+            fav={favs.includes(l.id)}
+            onKill={() => killIt(l.id)}
+            onFav={() => toggleFav(l.id)}
+          />
+        ))}
+        {data && inlist.length === 0 && (
+          <div className="empty">
+            <h3>No matches with current filters.</h3>
+            <p>Loosen the chips above, or wait — teams are still reporting in.</p>
+          </div>
+        )}
+      </div>
+
+      {outlist.length > 0 && (
+        <div className="tray">
+          <h3>Eliminated · <span className="mono" style={{fontSize:14,color:'var(--ink-2)'}}>{outlist.length}</span></h3>
+          <div className="mini">
+            {outlist.map(l => (
+              <button key={l.id} className="m" onClick={() => restore(l.id)} title="Click to restore">
+                ↺ {l.name} · ${((l.effective_rent ?? l.rent_monthly) || 0).toLocaleString()}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

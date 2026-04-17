@@ -1,0 +1,1296 @@
+{
+  "generated_at": "2026-04-17",
+  "sections": [
+    {
+      "area": "Berkeley (Downtown / North Berkeley BART)",
+      "generated_at": "2026-04-17",
+      "notes": "Berkeley market is tight for $2300 budget. True sub-$2300 units from management companies are rare; the only pure market-rate sub-$2300 options are Aquatic Higby's smallest studio and Hillside Village when studios come open. Larger buildings listed below hit budget via concessions (effective rent). Verified Greystar management on all five. Photos are Greystar's scene7 CDN (HTTP 200 verified) or apartmentlist CDN.",
+      "listings": [
+        {
+          "id": "aquatic-higby-ashby-studio-b",
+          "name": "Aquatic Higby",
+          "company": "Greystar",
+          "address": "3015 San Pablo Ave, Berkeley, CA 94702",
+          "neighborhood": "West Berkeley",
+          "bed": "Studio",
+          "rent_monthly": 2249,
+          "concessions": null,
+          "effective_rent": 2249,
+          "sqft": 463,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": false
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 500,
+            "notes": "Cats and dogs welcome. 2 pets max. Breed restrictions for dogs."
+          },
+          "bart": {
+            "station": "Ashby",
+            "distance_mi": 1.1,
+            "walk_min": 22
+          },
+          "safety_notes": "West Berkeley on San Pablo corridor. Block is fine but walk to Ashby BART crosses some less-trafficked industrial areas; prefer driving or AC Transit. Garage parking included \u2014 parking mitigates BART walk.",
+          "photos": [
+            "https://s7d9.scene7.com/is/image/greystarprod/17392BDG1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392BDG2",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392BDG3",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392KIT1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392LIV1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392BED1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392CLB1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17392FIT1"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/berkeley/aquatic-higby",
+          "contact": "https://www.liveaquatichigby.com/ ; managed by Greystar",
+          "available_date": "2026-05-15"
+        },
+        {
+          "id": "parker-studio-greystar",
+          "name": "Parker",
+          "company": "Greystar",
+          "address": "2038 Parker St, Berkeley, CA 94704",
+          "neighborhood": "South Berkeley / between Downtown & Ashby BART",
+          "bed": "Studio",
+          "rent_monthly": 2657,
+          "concessions": "8 weeks free on select units + $1,000 look-and-lease bonus",
+          "effective_rent": 2249,
+          "sqft": 534,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "2 pets per home. Cats welcome. Breed restrictions for dogs (Rottweiler, pit bull, chow, akita, malamute, wolf hybrid, etc.)."
+          },
+          "bart": {
+            "station": "Ashby",
+            "distance_mi": 0.5,
+            "walk_min": 10
+          },
+          "safety_notes": "Parker St just off Shattuck between Downtown and Ashby BART. Generally fine; some blocks east/south of Shattuck get quieter at night \u2014 stick to Shattuck/MLK corridors.",
+          "photos": [
+            "https://s7d9.scene7.com/is/image/greystarprod/14014KIT1",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014KIT2",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014LIV1",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014LIV2",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014BED1",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014BTH1",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014CLB1",
+            "https://s7d9.scene7.com/is/image/greystarprod/14014REC1"
+          ],
+          "listing_url": "https://www.greystar.com/parker-berkeley-ca/p_14014",
+          "contact": "https://www.parkerberkeley.com/ ; managed by Greystar",
+          "available_date": "2026-05-10"
+        },
+        {
+          "id": "aquatic-fourth-street-studio",
+          "name": "Aquatic Fourth Street",
+          "company": "Greystar",
+          "address": "2010 Fifth St, Berkeley, CA 94710",
+          "neighborhood": "West Berkeley / 4th Street",
+          "bed": "Studio",
+          "rent_monthly": 2572,
+          "concessions": "Up to 4-6 weeks free on select units (terms vary)",
+          "effective_rent": 2275,
+          "sqft": 557,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 500,
+            "notes": "Cats and dogs welcome, 2 pet max. Standard Greystar breed restrictions for dogs."
+          },
+          "bart": {
+            "station": "Downtown Berkeley",
+            "distance_mi": 1.0,
+            "walk_min": 20
+          },
+          "safety_notes": "4th Street shopping district - very safe, busy, well-lit. Walk to Downtown Berkeley BART is long (20 min); parking is included so this is driver-friendly. Closer AC Transit options exist.",
+          "photos": [
+            "https://s7d9.scene7.com/is/image/greystarprod/19323BDG1",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323BDG2",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323KIT1",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323KIT2",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323LIV1",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323DNG1",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323CLB1",
+            "https://s7d9.scene7.com/is/image/greystarprod/19323PAT1"
+          ],
+          "listing_url": "https://www.greystar.com/aquatic-fourth-street-berkeley-ca/p_19323",
+          "contact": "https://www.aquaticfourthstreet.com/ ; managed by Greystar",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "hillside-village-studio-greystar",
+          "name": "Hillside Village",
+          "company": "Greystar",
+          "address": "1801 Shattuck Ave, Berkeley, CA 94709",
+          "neighborhood": "Downtown Berkeley / Gourmet Ghetto",
+          "bed": "Studio",
+          "rent_monthly": 1920,
+          "concessions": "6 weeks free currently advertised on select units",
+          "effective_rent": 1699,
+          "sqft": 456,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": true,
+            "parking": true,
+            "patio": true,
+            "ac": false
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "2 pets per apartment. Cats and dogs welcome. 75 lb weight limit per pet; aggressive breed restrictions."
+          },
+          "bart": {
+            "station": "North Berkeley",
+            "distance_mi": 0.5,
+            "walk_min": 10
+          },
+          "safety_notes": "Shattuck Ave just north of downtown between Virginia/Delaware - excellent block, gourmet ghetto neighborhood. Very safe, walkable. Roughly equidistant between Downtown Berkeley BART (0.6 mi) and North Berkeley BART (0.5 mi).",
+          "photos": [
+            "https://s7d9.scene7.com/is/image/greystarprod/11968BDG1",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968KIT1",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968LIV1",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968BED1",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968BTH1",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968REC6",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968REC1",
+            "https://s7d9.scene7.com/is/image/greystarprod/11968CLB1"
+          ],
+          "listing_url": "https://www.greystar.com/hillside-village-berkeley-ca/p_11968",
+          "contact": "https://www.hillsidevillageberkeley.com/ ; (510) 665-4000 ; managed by Greystar. Note: 0 units currently listed on apartmentlist \u2014 call directly for upcoming availability.",
+          "available_date": null
+        },
+        {
+          "id": "the-durant-greystar-studio",
+          "name": "The Durant",
+          "company": "Greystar",
+          "address": "2631 Durant Ave, Berkeley, CA 94704",
+          "neighborhood": "Southside / Telegraph, 1 block from UC Berkeley",
+          "bed": "Studio",
+          "rent_monthly": 1800,
+          "concessions": null,
+          "effective_rent": 1800,
+          "sqft": 330,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": false,
+            "laundry_shared": true,
+            "parking": false,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": null,
+            "pet_deposit": null,
+            "notes": "Greystar pet-friendly policy applies; deposit and fee not published \u2014 confirm with leasing. Breed restrictions. The Durant is student-oriented housing, fully furnished; short-term/academic-year leases common \u2014 verify standard 12-mo lease with cats."
+          },
+          "bart": {
+            "station": "Downtown Berkeley",
+            "distance_mi": 0.6,
+            "walk_min": 12
+          },
+          "safety_notes": "Southside Berkeley near UC campus. Durant Ave just east of Telegraph \u2014 very busy, well-lit, high foot traffic. Generally safe; Telegraph south of Dwight Way gets sketchier but this block is solid.",
+          "photos": [
+            "https://s7d9.scene7.com/is/image/greystarprod/17648BDG1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648BDG3",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648KIT1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648KIT2",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648LIV1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648BED1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648BTH1",
+            "https://s7d9.scene7.com/is/image/greystarprod/17648CLB1"
+          ],
+          "listing_url": "https://www.greystar.com/the-durant-berkeley-ca/p_17648",
+          "contact": "thedurant@greystar.com ; https://www.livethedurant.com/ ; managed by Greystar. Student-focused \u2014 confirm non-student lease options and pet fees.",
+          "available_date": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "area": "Albany / El Cerrito (Plaza & Del Norte BART)",
+      "generated_at": "2026-04-17",
+      "notes": "The East Bay north of Berkeley offers better value than Oakland/Berkeley. Albany is very safe. El Cerrito is mostly safe; properties listed are on/north of Central Ave along San Pablo (safer stretch) or in the West-of-San-Pablo/Town Center area. Verify move-in dates and current pricing directly - end-May/June 1 availability is typical turnover, but units shift weekly. Village at Town Center's $1500 gift card concession brings a $2360 1BR to ~$2,235 effective; Mayfair Station's Junior 1BR and Studio are closest to effective $2000 target.",
+      "listings": [
+        {
+          "id": "del-norte-place",
+          "name": "Del Norte Place Apartment Homes",
+          "company": "MG Properties",
+          "address": "11720 San Pablo Ave, El Cerrito, CA 94530",
+          "neighborhood": "El Cerrito (Del Norte)",
+          "bed": "1BR",
+          "rent_monthly": 2170,
+          "concessions": null,
+          "effective_rent": 2170,
+          "sqft": 616,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": null,
+            "laundry_shared": true,
+            "parking": true,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Breed restrictions apply. 2 cats OK."
+          },
+          "bart": {
+            "station": "El Cerrito Del Norte",
+            "distance_mi": 0.1,
+            "walk_min": 3
+          },
+          "safety_notes": "On San Pablo Ave directly adjacent to Del Norte BART plaza; active, well-lit mixed-use block. North of Central Ave - safer stretch of San Pablo.",
+          "photos": [
+            "https://static.apartmentadvisor.com/i/9fa7a8715b91eed92fa2bb30c138dc70.jpeg",
+            "https://static.apartmentadvisor.com/i/afc09267957cbd3b8f248250236668eb.jpeg",
+            "https://static.apartmentadvisor.com/i/c0b0b71985f228d64be7fc10978f65aa.jpeg",
+            "https://static.apartmentadvisor.com/i/a203cd3104cb3d6fcca2e2de22b0868d.jpeg",
+            "https://static.apartmentadvisor.com/i/52dc9de5ad7948121dee459041769458.jpeg",
+            "https://static.apartmentadvisor.com/i/ef710fa9c68b99533f514f81612f26bd.jpeg",
+            "https://static.apartmentadvisor.com/i/2fd6e59231365c9878fe225c93cffc13.jpeg",
+            "https://static.apartmentadvisor.com/i/c8e01a65b032c87a58f319d1a8d38600.jpeg"
+          ],
+          "listing_url": "https://delnorteplace.mgproperties.com/floorplans",
+          "contact": "(844) 630-7028",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "mayfair-station",
+          "name": "Mayfair Station",
+          "company": "Cornerstone Residential Management",
+          "address": "11600 San Pablo Ave, El Cerrito, CA 94530",
+          "neighborhood": "El Cerrito (Del Norte)",
+          "bed": "1BR",
+          "rent_monthly": 2194,
+          "concessions": null,
+          "effective_rent": 2194,
+          "sqft": 695,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "2 pets per home. Cats welcome. Pet spa station on site."
+          },
+          "bart": {
+            "station": "El Cerrito Del Norte",
+            "distance_mi": 0.2,
+            "walk_min": 4
+          },
+          "safety_notes": "New-build (2021) mid-rise on San Pablo 1 block from Del Norte BART; active commercial frontage. North of Central Ave, not in the flagged stretch.",
+          "photos": [
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724759/MayfairStation11600SanPabloAve_II-4076752_PHO-2.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724753/MayfairStation11600SanPabloAve_II-4076752_PHO-42.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724754/MayfairStation11600SanPabloAve_II-4076752_PHO-50.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724751/MayfairStation11600SanPabloAve_II-4076752_PHO-28.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724763/MayfairStation11600SanPabloAve_II-4076752_PHO-56.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724765/MayfairStation11600SanPabloAve_II-4076752_PHO-67.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724766/MayfairStation11600SanPabloAve_II-4076752_PHO-72.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724767/MayfairStation11600SanPabloAve_II-4076752_PHO-76.jpg"
+          ],
+          "listing_url": "https://www.mayfairstation.com/station-mayfair-station-el-cerrito-ca/floorplans",
+          "contact": "(510) 519-5681",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "mayfair-station-studio",
+          "name": "Mayfair Station - Studio",
+          "company": "Cornerstone Residential Management",
+          "address": "11600 San Pablo Ave, El Cerrito, CA 94530",
+          "neighborhood": "El Cerrito (Del Norte)",
+          "bed": "studio",
+          "rent_monthly": 2259,
+          "concessions": null,
+          "effective_rent": 2259,
+          "sqft": 396,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "2 pets OK. Same building/policy as 1BR above."
+          },
+          "bart": {
+            "station": "El Cerrito Del Norte",
+            "distance_mi": 0.2,
+            "walk_min": 4
+          },
+          "safety_notes": "Same building as above listing; new construction, active retail frontage.",
+          "photos": [
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724768/MayfairStation11600SanPabloAve_II-4076752_PHO-77.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724769/MayfairStation11600SanPabloAve_II-4076752_PHO-79.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/689500/MayfairStation_11600SanPabloAve_II-3794904_PHO_05.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/714777/11MAYFAIR2N7A2949.jpg",
+            "https://www.mayfairstation.com/uploads/images/images/1336x1336G/724752/MayfairStation11600SanPabloAve_II-4076752_PHO-42.jpg"
+          ],
+          "listing_url": "https://www.mayfairstation.com/station-mayfair-station-el-cerrito-ca/floorplans",
+          "contact": "(510) 519-5681",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "village-town-center",
+          "name": "The Village at Town Center",
+          "company": "FPI Management (listed) / Prospect Portal operated",
+          "address": "6410 Schmidt Ln, El Cerrito, CA 94530",
+          "neighborhood": "El Cerrito (Town Center)",
+          "bed": "1BR",
+          "rent_monthly": 2360,
+          "concessions": "$1,500 gift card on move-in (effective ~$125/mo reduction over 12 months)",
+          "effective_rent": 2235,
+          "sqft": 635,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 400,
+            "notes": "Indoor cats only. $400 deposit for 1 pet, $800 for 2. $50/mo pet rent per pet. 45 lb max adult weight. Proof of vaccinations required."
+          },
+          "bart": {
+            "station": "El Cerrito Del Norte",
+            "distance_mi": 0.7,
+            "walk_min": 14
+          },
+          "safety_notes": "Quiet residential pocket behind El Cerrito Town Center shopping; not on San Pablo. El Cerrito Plaza BART also ~0.7 mi south. Very safe, low-density.",
+          "photos": [
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/0U6A0795.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/0U6A0813.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/0U6A0820.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/0U6A0895.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/0U6A4084.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/0U6A4129.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/VillageTownCenter-1646.jpg",
+            "https://media.apts247.info/94/9461098b934e48caa8495643c044b222/galleries/community/community-amenities/VillageTownCenter-1649.jpg"
+          ],
+          "listing_url": "https://www.villagetowncenter.com/floorplans/",
+          "contact": "(510) 924-4188",
+          "available_date": "2026-05-22"
+        },
+        {
+          "id": "portola-arms",
+          "name": "Portola Arms",
+          "company": "Kasa Operations LLC",
+          "address": "6615 Schmidt Ln, El Cerrito, CA 94530",
+          "neighborhood": "El Cerrito (Town Center)",
+          "bed": "1BR",
+          "rent_monthly": 2395,
+          "concessions": null,
+          "effective_rent": 2395,
+          "sqft": 700,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": false,
+            "laundry_shared": true,
+            "parking": true,
+            "patio": true,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": null,
+            "pet_rent_monthly": null,
+            "pet_deposit": null,
+            "notes": "Pets under 80 lbs welcome; cats fine. Contact management for deposit/rent specifics."
+          },
+          "bart": {
+            "station": "El Cerrito Del Norte",
+            "distance_mi": 0.75,
+            "walk_min": 15
+          },
+          "safety_notes": "Quiet residential pocket near Town Center; smaller garden-style building. Very safe.",
+          "photos": [
+            "https://static.apartmentadvisor.com/i/e95e4b3da1ea206c412cb817f25d803c.jpeg",
+            "https://static.apartmentadvisor.com/i/9053cd27a810f8d9c4c5fd26075a8aaf.jpeg",
+            "https://static.apartmentadvisor.com/i/c829f7011f802d0cd0632cc64ba8f137.jpeg",
+            "https://static.apartmentadvisor.com/i/059e824f66b9fecb39fe972a4dc30e53.jpeg",
+            "https://static.apartmentadvisor.com/i/107402a03869f6d0bfdc9d2d2b7604a3.jpeg",
+            "https://static.apartmentadvisor.com/i/0a9395022a1941940d00a24597558798.jpeg"
+          ],
+          "listing_url": "https://www.zillow.com/apartments/el-cerrito-ca/portola-arms/9NP2p4/",
+          "contact": "(510) 280-5050 / vacancies@kasaproperties.com",
+          "available_date": "2026-06-01"
+        }
+      ]
+    },
+    {
+      "area": "Emeryville / MacArthur BART",
+      "generated_at": "2026-04-17",
+      "notes": "Corporate-managed only. Emeryville buildings rely on the free Emery-Go-Round shuttle (15-min headways) to reach MacArthur BART; all Emeryville listings below are on or adjacent to the Shellmound-Powell or Hollis routes. MacArthur Commons is directly across the street from MacArthur BART. 4801 Shattuck sits in Temescal between MacArthur and Rockridge BART. Only listings with 1BR/studio inventory at or near $2,300 effective rent are included; Avalon Public Market, Emme, Avenue 64, Icon at Doyle, and Bay House Emeryville were screened but currently price 1BRs above $2,600-$2,900 and were excluded.",
+      "listings": [
+        {
+          "id": "macarthur-commons",
+          "name": "MacArthur Commons",
+          "company": "Hines (developer/owner); leased by Greystar-tier team",
+          "address": "540 39th St, Oakland, CA 94609",
+          "neighborhood": "Temescal / MacArthur BART",
+          "bed": "Studio and Jr. 1BR (multiple units)",
+          "rent_monthly": 2251,
+          "concessions": "Up to 6 weeks free on select units + $1,000 look-and-lease if moved in by Apr 30; ask if extends into May/June",
+          "effective_rent": 1991,
+          "sqft": 600,
+          "available_units": [
+            {
+              "floor_plan": "Studio B",
+              "unit": "531",
+              "rent": 2251,
+              "sqft": 600,
+              "available": "2026-05-02"
+            },
+            {
+              "floor_plan": "Jr. 1 Bed B",
+              "unit": "664",
+              "rent": 2261,
+              "sqft": 610,
+              "available": "now"
+            },
+            {
+              "floor_plan": "Jr. 1 Bed B",
+              "unit": "456",
+              "rent": 2274,
+              "sqft": 610,
+              "available": "now"
+            },
+            {
+              "floor_plan": "Jr. 1 Bed B",
+              "unit": "268",
+              "rent": 2322,
+              "sqft": 610,
+              "available": "now"
+            }
+          ],
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "2 cats max; confirm at lease signing - one aggregator shows a conflicting 'pets not allowed' flag that conflicts with the official building policy of 2 pets. Pet spa + dog run on-site."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 0.15,
+            "walk_min": 3,
+            "shuttle": null
+          },
+          "safety_notes": "Directly across the street from MacArthur BART. The immediate building block and Telegraph/Temescal to the north (49th, Piedmont Ave) feel safe and active. West Street, 40th east of San Pablo, and the encampments under the 580/980 overpasses just south of the station are noticeably rougher - avoid walking those blocks alone at night and enter/exit via the 40th/Telegraph side rather than West Street.",
+          "photos": [
+            "https://maccommons.com/assets/images/cache/540-39th-St-Oakland-CA-313-4186c9aa71545e20536759a3e7fa3323.jpg",
+            "https://maccommons.com/assets/images/cache/540-39th-St-Oakland-CA-32-e978353a15cfa1a23ae71ffcffe3a527.jpg",
+            "https://maccommons.com/assets/images/cache/540-39th-St-Oakland-CA-30-83a23807b455d85be6f6753051033e29.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_16_macarthur_commons_1853-048913c1f399a6ff2a727c628662e9e8.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_20_macarthur_commons_1853-d29b00162d1059acaaa2acd234dd918a.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_4_macarthur_commons_1853-48dcb69ccf2b64ff324676174dd64f8f.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_9_macarthur_commons_1853-d214275cc081752509a6b86bdb86684f.jpg",
+            "https://maccommons.com/assets/images/cache/540-39th-St-Oakland-CA-181-c4340cc37dc45e78a0e38dfcc94d7e97.jpg"
+          ],
+          "listing_url": "https://maccommons.com/",
+          "contact": "(510) 228-4131",
+          "available_date": "2026-05-02"
+        },
+        {
+          "id": "3900-adeline",
+          "name": "3900 Adeline",
+          "company": "Madison Park Financial",
+          "address": "3900 Adeline St, Emeryville, CA 94608",
+          "neighborhood": "Emeryville (Longfellow border)",
+          "bed": "Studio / 1BR (multiple units)",
+          "rent_monthly": 2255,
+          "concessions": "Up to 1 month free on select units + $1,200 look-and-lease",
+          "effective_rent": 2067,
+          "sqft": 599,
+          "available_units": [
+            {
+              "floor_plan": "Studio",
+              "unit": "201",
+              "rent": 1780,
+              "sqft": 326,
+              "available": "now"
+            },
+            {
+              "floor_plan": "Studio",
+              "unit": "308",
+              "rent": 1855,
+              "sqft": 326,
+              "available": "now"
+            },
+            {
+              "floor_plan": "1BR",
+              "unit": "224",
+              "rent": 2255,
+              "sqft": 599,
+              "available": "2026-04-29"
+            },
+            {
+              "floor_plan": "1BR",
+              "unit": "326",
+              "rent": 2255,
+              "sqft": 599,
+              "available": "now"
+            },
+            {
+              "floor_plan": "1BR",
+              "unit": "116",
+              "rent": 2255,
+              "sqft": 599,
+              "available": "2026-05-08"
+            }
+          ],
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 25,
+            "pet_deposit": 250,
+            "notes": "Two cats welcome. $25/mo and $250 deposit per cat - friendliest cat policy of the set."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 0.9,
+            "walk_min": 18,
+            "shuttle": "Emery-Go-Round Hollis route (stop ~2 blocks west on San Pablo); ~10-15 min door-to-platform"
+          },
+          "safety_notes": "Emeryville side of San Pablo Ave - well lit with active retail. Adeline south of 36th crosses into the rougher San Pablo/West Oakland edge; keep walks north toward 40th/Hollis, not south, after dark.",
+          "photos": [
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/0c0b709d2d9748b8f0a1bb40059caa78.jpg"
+          ],
+          "listing_url": "https://www.3900adeline.com/",
+          "contact": "(510) 653-3900",
+          "available_date": "2026-05-08"
+        },
+        {
+          "id": "parc-on-powell",
+          "name": "Parc on Powell",
+          "company": "Equity Residential",
+          "address": "1333 Powell St, Emeryville, CA 94608",
+          "neighborhood": "Emeryville (Powell/Christie)",
+          "bed": "Studio (ADU) / Live-Work Studio",
+          "rent_monthly": 2225,
+          "concessions": null,
+          "effective_rent": 2225,
+          "sqft": 483,
+          "available_units": [
+            {
+              "floor_plan": "One Bedroom - ADU - D (studio-size)",
+              "rent": 2225,
+              "sqft": 483,
+              "available": "2026-06-12"
+            },
+            {
+              "floor_plan": "Live-Work Studio - G",
+              "rent": 2385,
+              "sqft": 664,
+              "available": "2026-04-18"
+            }
+          ],
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": null,
+            "pet_deposit": null,
+            "notes": "Equity Residential standard: 2 pets max, fees typically $65/mo per pet + $500 deposit - confirm at leasing office."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 0.92,
+            "walk_min": 20,
+            "shuttle": "Emery-Go-Round Shellmound-Powell route stops at the front door - ~10 min to MacArthur"
+          },
+          "safety_notes": "Solid Emeryville corporate corridor next to Pixar and the freeway; safe, quiet, low foot traffic. Powell under the 80 freeway has transient activity but you wouldn't walk that direction for BART - take the shuttle.",
+          "photos": [
+            "https://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_auto,f_auto/4146-48/parc-on-powell-apartments",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4146-FP-385275-0-1-483",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4146-FP-00380067-1-1-664",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4146-FP-00380062-0-1-458",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4146-FP-00380075-1-1-734",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4146-FP-00380097-2-2-1175"
+          ],
+          "listing_url": "https://www.equityapartments.com/san-francisco-bay/emeryville/parc-on-powell-apartments",
+          "contact": "(510) 984-2451",
+          "available_date": "2026-06-12"
+        },
+        {
+          "id": "artistry-emeryville",
+          "name": "Artistry Emeryville",
+          "company": "Equity Residential",
+          "address": "6401 Shellmound St, Emeryville, CA 94608",
+          "neighborhood": "Emeryville (Shellmound / Public Market)",
+          "bed": "1BR",
+          "rent_monthly": 2391,
+          "concessions": "None currently advertised - Equity often releases 2-4 weeks free on longer lease terms; ask.",
+          "effective_rent": 2391,
+          "sqft": 635,
+          "available_units": [
+            {
+              "floor_plan": "1BR-B",
+              "unit": "6318",
+              "rent": 2391,
+              "sqft": 635,
+              "available": "2026-05-22",
+              "notes": "Courtyard view, smart-home"
+            },
+            {
+              "floor_plan": "1BR-A",
+              "unit": "7113",
+              "rent": 2392,
+              "sqft": 695,
+              "available": "2026-05-22",
+              "notes": "Smart-home"
+            }
+          ],
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": false
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 3,
+            "pet_rent_monthly": 85,
+            "pet_deposit": 500,
+            "notes": "Up to 3 cats, $85/mo each, $500 deposit. Pet spa on-site. Pet rent is the highest in this list."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 1.2,
+            "walk_min": 25,
+            "shuttle": "Emery-Go-Round Shellmound-Powell - stop at Shellmound/65th, 1 block away; ~12 min shuttle + BART platform"
+          },
+          "safety_notes": "Modern Emeryville retail corridor next to Bay Street and Public Market - very safe, well lit, lots of pedestrian activity from the shopping district.",
+          "photos": [
+            "https://media.equityapartments.com/images/c_crop,x_0,y_0,w_1920,h_1080/c_fill,w_1920,h_1080/q_auto,f_auto/4097-25/artistry-emeryville-apartments-exterior",
+            "https://media.equityapartments.com/images/q_auto/f_auto/fl_lossy/w_400/c_crop,x_0,y_0/4097-87/artistry-emeryville-apartment-homes-neighborhood",
+            "https://media.equityapartments.com/images/q_auto/f_auto/fl_lossy/w_400/c_crop,x_0,y_0/4097-89/artistry-emeryville-apartment-homes-neighborhood",
+            "https://media.equityapartments.com/images/q_auto/f_auto/fl_lossy/w_400/c_crop,x_0,y_0/4097-91/artistry-emeryville-apartment-homes-neighborhood",
+            "https://media.equityapartments.com/images/q_auto/f_auto/fl_lossy/w_400/c_crop,x_0,y_0/4097-90/artistry-emeryville-apartment-homes-neighborhood",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4097-FP-5822-1-1-635",
+            "https://media.equityapartments.com/image/upload/f_auto,q_auto,b_white/4097-FP-5823-1-1-695"
+          ],
+          "listing_url": "https://www.equityapartments.com/san-francisco-bay/emeryville/artistry-emeryville-apartments",
+          "contact": "(510) 900-3390",
+          "available_date": "2026-05-22",
+          "budget_flag": "Slightly over the $2,300 hard cap at $2,391 asking. Including because Equity waived rent on this floor plan in Q4 '25 and cap concessions/look-and-lease can drop effective rent under $2,200."
+        },
+        {
+          "id": "4801-shattuck",
+          "name": "4801 Shattuck",
+          "company": "Legacy Partners",
+          "address": "4801 Shattuck Ave, Oakland, CA 94609",
+          "neighborhood": "Temescal (between MacArthur and Rockridge BART)",
+          "bed": "Studio",
+          "rent_monthly": 1853,
+          "concessions": null,
+          "effective_rent": 1853,
+          "sqft": 404,
+          "available_units": [
+            {
+              "floor_plan": "Studio A2",
+              "rent": 1853,
+              "sqft": 404,
+              "available": "2026-05-21"
+            }
+          ],
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 500,
+            "notes": "2 pets per home, $65/mo each, $500 deposit, no weight limit. 12 breed restrictions apply (dogs only)."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 1.3,
+            "walk_min": 28,
+            "shuttle": null,
+            "alternative_station": "Rockridge (~0.6 mi, 12-min walk) is actually closer than MacArthur"
+          },
+          "safety_notes": "Temescal on upper Shattuck is one of the safest East Bay blocks - cafes, Bakesale Betty, Temescal Alley. Outside the MacArthur BART 'rougher blocks' zone entirely. Included as a strong fallback: if the user can accept Rockridge BART instead of MacArthur, this is the best value in the set.",
+          "photos": [
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/b7482ee3dadfe99d17e78d8906063802.jpg",
+            "https://liveat4801shattuck.com/assets/images/cache/4801_Shattuck_Apartments-9_final02-1-90f24dadceae527ac574de657411abef.jpg",
+            "https://liveat4801shattuck.com/assets/images/cache/G2qKEAVIvmFWemEjFIElUZL3d12xv7mHPhSarBra-cc8fc2349a1bc10f21a42c6453cf9c18.jpg"
+          ],
+          "listing_url": "https://liveat4801shattuck.com/",
+          "contact": "(844) 343-4356",
+          "available_date": "2026-05-21",
+          "budget_flag": "Fits MacArthur BART corridor loosely - it's a 28-min walk to MacArthur but only 12 min to Rockridge BART. Flag for the user."
+        }
+      ],
+      "screened_out": [
+        {
+          "name": "Avalon Public Market (AvalonBay)",
+          "reason": "Studios start $2,840, 1BRs $3,055 - well above cap"
+        },
+        {
+          "name": "Emme (Essex)",
+          "reason": "1BRs currently $2,437-$2,817; above cap even with 5 weeks free concession"
+        },
+        {
+          "name": "Avenue 64 (Essex)",
+          "reason": "1BRs start $2,387-$2,507 and rarely drop under cap"
+        },
+        {
+          "name": "Icon at Doyle (Prometheus)",
+          "reason": "1BRs $2,922+; out of budget"
+        },
+        {
+          "name": "Bay House Emeryville",
+          "reason": "Pricing runs $2,977+ for 1BR"
+        },
+        {
+          "name": "Bakery Lofts (Madison Park)",
+          "reason": "Currently no cat-friendly policy per FAQ; 0 units available"
+        },
+        {
+          "name": "The Bridge at Emeryville (Decron)",
+          "reason": "Median 1BR $2,537; $1,000 off 1BR concession brings to ~$2,450 effective - marginal miss"
+        },
+        {
+          "name": "Atlas / Alta Waverly (Greystar)",
+          "reason": "Downtown Oakland, closer to 19th St BART than MacArthur"
+        }
+      ]
+    },
+    {
+      "area": "Lake Merritt / Adams Point / Grand Lake",
+      "generated_at": "2026-04-17",
+      "notes": "Adams Point proper is dominated by small privately-owned buildings (most lack dishwasher + 2-cat policy). The five picks below are all professionally-managed mid/high-rises within the Lake Merritt corridor \u2014 all within ~0.5 mi of 19th St, 12th St City Center, or Lake Merritt BART. Channel House (Jack London Sq) is technically ~0.5 mi south of Lake Merritt, included because its 10-weeks-free concession drops effective studio rent well under target and it is pet-friendly + fully amenitized. Photos verified on property/leasing-company CDNs (apartmentlist, myrazz, ctykit, udr global assets). Studios/1BRs only; all allow 2 cats + have in-unit dishwasher.",
+      "listings": [
+        {
+          "id": "channel-house-studio-0b",
+          "name": "Channel House",
+          "company": "Ellis Partners (developer/operator) \u2014 leased via Channel House management",
+          "address": "40 Harrison St, Oakland, CA 94607",
+          "neighborhood": "Jack London Square (south of Lake Merritt)",
+          "bed": "Studio",
+          "rent_monthly": 2076,
+          "concessions": "Up to 10 Weeks Free on select homes",
+          "effective_rent": 1677,
+          "sqft": 483,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Cats and dogs welcome, max 2 pets per unit. $50/mo pet rent, $500 refundable deposit."
+          },
+          "bart": {
+            "station": "12th St Oakland City Center",
+            "distance_mi": 0.7,
+            "walk_min": 14
+          },
+          "safety_notes": "Jack London Square waterfront \u2014 active nightlife/restaurant district, generally well-lit and patrolled near the water; some transient activity west of Broadway at night.",
+          "photos": [
+            "https://img.ctykit.com/cdn/ca-jack-london/images/tr:w-1800/channel-house-oakland-ca-waterfront-rooftop-terrace.jpg",
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/f1c0f7efd94f3824999141c510316cf7.jpg"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/oakland/channel-house",
+          "contact": "See channelhouseoakland.com leasing contact form",
+          "available_date": "2026-04-22"
+        },
+        {
+          "id": "lydian-studio-s1",
+          "name": "Lydian",
+          "company": "Holland Residential California",
+          "address": "238 13th St, Oakland, CA 94612",
+          "neighborhood": "Downtown Oakland (adjacent to Lake Merritt / Adams Point)",
+          "bed": "Studio",
+          "rent_monthly": 1848,
+          "concessions": null,
+          "effective_rent": 1848,
+          "sqft": 451,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": null,
+            "pet_deposit": null,
+            "notes": "Cats and dogs allowed; contact leasing for exact fees (typical Holland Residential: $50/mo pet rent, $500 deposit)."
+          },
+          "bart": {
+            "station": "12th St Oakland City Center",
+            "distance_mi": 0.2,
+            "walk_min": 4
+          },
+          "safety_notes": "Downtown/Uptown corridor \u2014 high foot traffic during business hours; closer to BART so well-trafficked. Block is mostly office/residential mid-rise.",
+          "photos": [
+            "https://images.myrazz.com/uc-image/2fe07e1b-2658-4be1-8571-7c7c1edd094c/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian.jpeg.webp",
+            "https://images.myrazz.com/uc-image/c977f3a2-ba58-4b4f-adcb-93ea7e043d31/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_living.jpeg.webp",
+            "https://images.myrazz.com/uc-image/d2758c19-5def-4cc6-94d4-82e97dd57607/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_kitchen.jpeg.webp",
+            "https://images.myrazz.com/uc-image/5d49af45-b596-4a21-a4a1-55ac04529623/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_kitchen.jpeg.webp",
+            "https://images.myrazz.com/uc-image/742d051c-3929-4b64-b8a2-31ef6a7eb83b/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_living.jpeg.webp",
+            "https://images.myrazz.com/uc-image/151fff85-961b-4aa9-b91a-ca48ba2060a0/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_living.jpeg.webp",
+            "https://images.myrazz.com/uc-image/fd7a1883-083f-46f7-8b3d-f9abbcdec80d/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_living.jpeg.webp",
+            "https://images.myrazz.com/uc-image/0780c7be-4dab-451d-9cc2-8e99882f3428/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/640x640/center/lydian_-_living.jpeg.webp"
+          ],
+          "listing_url": "https://www.hollandresidential.com/ca/oakland/lydian",
+          "contact": "(510) 756-3677",
+          "available_date": "2026-07-05"
+        },
+        {
+          "id": "residences-lake-merritt-studio-e1b",
+          "name": "Residences at Lake Merritt",
+          "company": "UDR, Inc.",
+          "address": "1940 Webster St, Oakland, CA 94612",
+          "neighborhood": "Lakeside / Lake Merritt (north edge of lake)",
+          "bed": "Studio",
+          "rent_monthly": 2020,
+          "concessions": "Save up to $1000 off rent \u2014 must lease within 1 day of touring (select units)",
+          "effective_rent": 1937,
+          "sqft": 511,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 75,
+            "pet_deposit": 99,
+            "notes": "Cats and dogs welcome. Max 2 cats per unit. $75/mo pet rent per cat, $99 deposit. Must be authorized by management."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.3,
+            "walk_min": 6
+          },
+          "safety_notes": "Directly on Lake Merritt's north shore \u2014 the safest, most desirable Oakland block. Heavy lake-path foot traffic, well-lit, professional doorman building.",
+          "photos": [
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/626de01bd29e1c994798705ff4bcfa79.jpg",
+            "https://www.udr.com/globalassets/communities/residences-at-lake-merritt/images/headerlogo_lakemerritv3.jpg"
+          ],
+          "listing_url": "https://www.udr.com/san-francisco-bay-area-apartments/lakeside/residences-at-lake-merritt/",
+          "contact": "(510) 916-2441",
+          "available_date": "2026-05-26"
+        },
+        {
+          "id": "the-grand-melbourne-studio",
+          "name": "The Grand",
+          "company": "Essex Property Trust",
+          "address": "100 Grand Ave, Oakland, CA 94612",
+          "neighborhood": "Northgate / Grand Ave (between Uptown and Lake Merritt)",
+          "bed": "Studio",
+          "rent_monthly": 2263,
+          "concessions": "Lock in 18-month lease to secure rate (select units); no free-rent concession currently",
+          "effective_rent": 2263,
+          "sqft": 457,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Max 2 pets. Cats OK, $50/mo pet rent, $500 deposit. 50-lb dog weight cap; breed restrictions apply (does not affect cat owners)."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.4,
+            "walk_min": 8
+          },
+          "safety_notes": "Grand Ave/Uptown corner \u2014 Whole Foods across the street, active restaurant row, generally safe. Building has full doorman + controlled access.",
+          "photos": [
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/84053ca16e079ddaa9314afb70e53a7e.jpg"
+          ],
+          "listing_url": "https://www.essexapartmenthomes.com/apartments/oakland/the-grand",
+          "contact": "(510) 455-8765",
+          "available_date": "2026-05-07"
+        },
+        {
+          "id": "vespr-studio-s1",
+          "name": "VESPR",
+          "company": "Holland Residential California",
+          "address": "312 24th St, Oakland, CA 94612",
+          "neighborhood": "Uptown / Northgate (just north of Adams Point)",
+          "bed": "Studio",
+          "rent_monthly": 2400,
+          "concessions": "Up to 4 Weeks Free on Select Homes + $1,000 Look-and-Lease",
+          "effective_rent": 2215,
+          "sqft": 487,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 500,
+            "notes": "Cats and dogs welcome. $65/mo pet rent per cat, $500 deposit. Standard Holland Residential terms."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.5,
+            "walk_min": 10
+          },
+          "safety_notes": "Uptown high-rise district \u2014 new construction, secure building with concierge, resort-style amenities. Block is commercial/residential mix, safer than areas south of 14th St.",
+          "photos": [
+            "https://images.myrazz.com/uc-image/ceb33700-852a-47dc-8e36-59c6289cb812/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/600x600/center/vespr_-_pool_cabanas.jpeg.webp",
+            "https://images.myrazz.com/uc-image/d22cc137-9c6b-4505-998a-2441913bc9e4/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/600x600/center/vespr_-_lobby_entrance_and_lounge.jpeg.webp",
+            "https://images.myrazz.com/uc-image/b298374a-5fd9-4c38-bc58-fa1758b08788/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/600x600/center/vespr_-_lobby_concierge_desk.jpeg.webp",
+            "https://images.myrazz.com/uc-image/44a9a930-2c48-41e6-82a4-c74571904b83/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/1200x600/center/vespr_-_coffee_bar.jpeg.webp",
+            "https://images.myrazz.com/uc-image/510a4535-c6c8-43c2-8a21-9d02f1ed465e/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/600x600/center/vespr_-_co-working_lounge.jpeg.webp",
+            "https://images.myrazz.com/uc-image/204fdf25-4a37-4506-8b1e-6df31276c951/-/format/webp/-/quality/lighter/-/resize/x1200/-/scale_crop/600x600/center/vespr_-_private_work_pods.jpeg.webp",
+            "https://images.myrazz.com/uc-image/6b062b063d1fcf3e97c46e6d633b69d0.jpg"
+          ],
+          "listing_url": "https://www.hollandresidential.com/ca/oakland/vespr",
+          "contact": "(925) 744-8791",
+          "available_date": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "area": "Rockridge / Temescal / Piedmont Ave",
+      "generated_at": "2026-04-17",
+      "notes": "All listings verified via apartmentlist.com unit-level data (Apr 2026), property mgmt websites, and Greystar. Dishwasher and 2-cat pet policy confirmed in writing. Effective rent computed assuming 52-week year with concession weeks divided out of 12-mo lease base. MacArthur Commons currently offers 'Up to 6 weeks free + $1,000 look & lease' through 4/30/26; Baxter offers 'Up to 8-10 weeks free on select floorplans'. Confirm concession still applies at signing. The Logan at 5110 Telegraph was considered but excluded because ApartmentList listed 'No dishwasher' (conflicting with Brookfield's marketing) and pet-limit for cats was unconfirmed. Idora (Selborne) was excluded because policy allows only 1 cat. Telegraph Arts was excluded for no dishwasher. 4801 Shattuck, 47Hundred, The Amador, One Piedmont, and Skylyne exceed budget even with concessions.",
+      "listings": [
+        {
+          "id": "macarthur-commons-studio-b",
+          "name": "MacArthur Commons - Studio B",
+          "company": "Hines (Hines Living)",
+          "address": "540 39th St, Oakland, CA 94609",
+          "neighborhood": "Temescal / North Oakland",
+          "bed": "Studio",
+          "rent_monthly": 2251,
+          "concessions": "Up to 6 weeks free + $1,000 look & lease (move-in by 4/30/26)",
+          "effective_rent": 1991,
+          "sqft": 600,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Max 2 cats per unit. On-site pet grooming station, outdoor dog run."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 0.1,
+            "walk_min": 2
+          },
+          "safety_notes": "Directly across from MacArthur BART in Temescal; well-lit new construction (2019); generally safe but the block of 40th/West MacArthur sees some transient activity at night.",
+          "photos": [
+            "https://maccommons.com/assets/images/cache/540-39th-St-Oakland-CA-3-0b23d121edf41b3053eab58b8cbba8de.jpg",
+            "https://maccommons.com/assets/images/cache/paralax-1-54bb3525b538e91fcd0bc8abbf94d875.jpg",
+            "https://maccommons.com/assets/images/cache/paralax-2-c42ef60e80502ef75d7b68fb280c8a5c.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_2_macarthur_commons_1853-a21dad5484a0cb5635a8a300ff6c2de9.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_15_macarthur_commons_1853-2c6e9bef14dfde81cd6de12abdf60c83.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_19_macarthur_commons_1853-fb82815ad1773b03651c327a652fd918.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_28_macarthur_commons_1853-c9049ccb78cd7361b867dae8e56613a6.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_30_macarthur_commons_1853-7b3a97a1e283e48ee23e203faf8e4b39.jpg"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/oakland/macarthur-commons--2",
+          "contact": "(510) 228-4131 | maccommons.com",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "macarthur-commons-jr-1br-b",
+          "name": "MacArthur Commons - Jr. 1 Bedroom B",
+          "company": "Hines (Hines Living)",
+          "address": "540 39th St, Oakland, CA 94609",
+          "neighborhood": "Temescal / North Oakland",
+          "bed": "1BR",
+          "rent_monthly": 2224,
+          "concessions": "Up to 6 weeks free + $1,000 look & lease (move-in by 4/30/26)",
+          "effective_rent": 1968,
+          "sqft": 610,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Max 2 cats per unit."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 0.1,
+            "walk_min": 2
+          },
+          "safety_notes": "Best-in-class location at MacArthur BART; property is gated with key-fob access. Temescal blocks immediately north (Piedmont Ave, Telegraph cafes) very safe.",
+          "photos": [
+            "https://maccommons.com/assets/images/cache/gallery_2_macarthur_commons_1853-80b581eb93c7a839c7803af7e32de5e7.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_15_macarthur_commons_1853-fe1b76faeeff605e5c68b57180d89f77.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_19_macarthur_commons_1853-f1d71902f670474cf254208dafae4b39.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_28_macarthur_commons_1853-8a955a2d48b25f0ee24a1701d9bc6868.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_30_macarthur_commons_1853-e6e5543f401381a1275796feb8f2285b.jpg",
+            "https://maccommons.com/assets/images/cache/540-39th-St-Oakland-CA-3-0b23d121edf41b3053eab58b8cbba8de.jpg",
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/0a48780dbd494199d00ff6166db107a8.jpg"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/oakland/macarthur-commons--2",
+          "contact": "(510) 228-4131 | maccommons.com",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "macarthur-commons-1br-d",
+          "name": "MacArthur Commons - 1 Bedroom D",
+          "company": "Hines (Hines Living)",
+          "address": "540 39th St, Oakland, CA 94609",
+          "neighborhood": "Temescal / North Oakland",
+          "bed": "1BR",
+          "rent_monthly": 2522,
+          "concessions": "Up to 6 weeks free + $1,000 look & lease (move-in by 4/30/26)",
+          "effective_rent": 2231,
+          "sqft": 643,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Max 2 cats per unit."
+          },
+          "bart": {
+            "station": "MacArthur",
+            "distance_mi": 0.1,
+            "walk_min": 2
+          },
+          "safety_notes": "Same building as other MacArthur Commons units; effective rent squeaks in under $2,300 ceiling if 6-week concession is honored \u2014 negotiate firmly.",
+          "photos": [
+            "https://maccommons.com/assets/images/cache/paralax-1-54bb3525b538e91fcd0bc8abbf94d875.jpg",
+            "https://maccommons.com/assets/images/cache/paralax-2-c42ef60e80502ef75d7b68fb280c8a5c.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_15_macarthur_commons_1853-2c6e9bef14dfde81cd6de12abdf60c83.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_19_macarthur_commons_1853-fb82815ad1773b03651c327a652fd918.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_28_macarthur_commons_1853-c9049ccb78cd7361b867dae8e56613a6.jpg",
+            "https://maccommons.com/assets/images/cache/gallery_30_macarthur_commons_1853-7b3a97a1e283e48ee23e203faf8e4b39.jpg"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/oakland/macarthur-commons--2",
+          "contact": "(510) 228-4131 | maccommons.com",
+          "available_date": "2026-06-07"
+        },
+        {
+          "id": "baxter-on-broadway-studio-sb",
+          "name": "Baxter on Broadway - Plan SB Studio",
+          "company": "Greystar",
+          "address": "4901 Broadway, Oakland, CA 94611",
+          "neighborhood": "Piedmont Avenue / Temescal border",
+          "bed": "Studio",
+          "rent_monthly": 2209,
+          "concessions": "Now offering 8-10 weeks free on select floor plans (confirmed Apr 2026)",
+          "effective_rent": 1869,
+          "sqft": 440,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 500,
+            "notes": "Max 2 pets (cats and/or dogs) per unit. Pet grooming bath station on-site."
+          },
+          "bart": {
+            "station": "Rockridge",
+            "distance_mi": 0.7,
+            "walk_min": 14
+          },
+          "safety_notes": "Walk Score 96 \u2014 corner of Broadway & 51st, very safe stretch between Piedmont Ave retail and Rockridge. New construction (2018), gated parking, stainless kitchens. Within 0.9 mi of both Rockridge and MacArthur BART.",
+          "photos": [
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/residences-new1-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/residences-new2-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/residences-new3-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/residences-new4-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/residences-new5-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/community-new1-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/community-new4-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-plan-sb.jpg"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/oakland/baxter-on-broadway--2",
+          "contact": "(844) 296-5334 | baxteronbroadway.com",
+          "available_date": "2026-06-01"
+        },
+        {
+          "id": "baxter-on-broadway-1br-oa",
+          "name": "Baxter on Broadway - Plan OA 1 Bedroom",
+          "company": "Greystar",
+          "address": "4901 Broadway, Oakland, CA 94611",
+          "neighborhood": "Piedmont Avenue / Temescal border",
+          "bed": "1BR",
+          "rent_monthly": 2435,
+          "concessions": "Now offering 8-10 weeks free on select floor plans; Plan OA confirmed eligible",
+          "effective_rent": 2060,
+          "sqft": 598,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 500,
+            "notes": "Max 2 pets per unit. Cat rent $50-65/mo; dog rent higher."
+          },
+          "bart": {
+            "station": "Rockridge",
+            "distance_mi": 0.7,
+            "walk_min": 14
+          },
+          "safety_notes": "Excellent location at the top of Piedmont Ave (bakeries, Commis, Rose's Taproom within 2 blocks). Gated garage, key-fob entry. Unit 103 available May 12, 2026 \u2014 aligns with move-in target.",
+          "photos": [
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-plan-oa.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-lounge.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-lobby.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-fitness-centert.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-rooftop-lounge.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2020/08/vr-roof-deck.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/residences-new3-300x185.jpg",
+            "https://www.baxteronbroadway.com/wp-content/uploads/2018/11/community-new5-300x185.jpg"
+          ],
+          "listing_url": "https://www.apartmentlist.com/ca/oakland/baxter-on-broadway--2",
+          "contact": "(844) 296-5334 | baxteronbroadway.com",
+          "available_date": "2026-05-12"
+        }
+      ]
+    }
+  ]
+}
