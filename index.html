@@ -130,6 +130,25 @@
   .status-ring .s.done { border-left: 3px solid var(--ok); }
   .status-ring .s.pending { border-left: 3px solid var(--amber); }
 
+  .hours { display: flex; flex-direction: column; gap: 6px; padding: 6px 0 2px; border-top: 1px dashed var(--line); }
+  .hours .head { display: flex; justify-content: space-between; align-items: center; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-2); font-weight: 600; }
+  .hours .status-now { padding: 1px 7px; border-radius: 3px; font-size: 10px; letter-spacing: 0.04em; text-transform: none; font-weight: 600; }
+  .hours .status-now.open { background: #e2efe4; color: var(--ok); }
+  .hours .status-now.closed { background: #f3e7e7; color: var(--bad); }
+  .hours .status-now.appt { background: #fbecd4; color: #8a5d0e; }
+  .hours .week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+  .hours .day { text-align: center; padding: 4px 2px; border-radius: 4px; font-size: 9px; background: var(--paper-2); color: var(--ink-2); position: relative; }
+  .hours .day .d { font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 9px; letter-spacing: 0.04em; }
+  .hours .day .h { display: block; font-size: 8.5px; margin-top: 2px; opacity: 0.85; font-family: 'JetBrains Mono', monospace; }
+  .hours .day.open { background: #e2efe4; color: var(--ok); }
+  .hours .day.closed { background: transparent; color: #b6a793; border: 1px dashed var(--line); }
+  .hours .day.appt { background: #fbecd4; color: #8a5d0e; }
+  .hours .day.today { outline: 2px solid var(--ink); outline-offset: 1px; }
+  .hours .phone { font-size: 11px; font-family: 'JetBrains Mono', monospace; color: var(--ink-2); }
+  .hours .phone a { color: var(--accent-ink); text-decoration: none; }
+  .hours .phone a:hover { text-decoration: underline; }
+  .hours .notes { font-size: 11px; color: var(--ink-2); font-style: italic; }
+
   @media (max-width: 720px) {
     .hero { flex-direction: column; align-items: flex-start; }
     .hero h1 { font-size: 44px; }
@@ -162,6 +181,7 @@ const FEATURES = [
   { key: "parking", label: "Parking", path: "amenities.parking" },
   { key: "ac", label: "AC", path: "amenities.ac" },
   { key: "concessions", label: "Has concession", path: "_has_concession" },
+  { key: "open_weekend", label: "Open weekends", path: "_open_weekend" },
 ];
 
 function getPath(obj, path) {
@@ -170,6 +190,12 @@ function getPath(obj, path) {
 function listingBool(l, path) {
   if (path === "_laundry_any") return !!(l.amenities?.laundry_in_unit || l.amenities?.laundry_shared);
   if (path === "_has_concession") return !!l.concessions;
+  if (path === "_open_weekend") {
+    const h = l.leasing_office?.hours;
+    if (!h) return false;
+    const isOpen = (v) => v && v !== "closed";
+    return isOpen(h.sat) || isOpen(h.sun);
+  }
   return !!getPath(l, path);
 }
 
@@ -179,6 +205,92 @@ function useLocalState(key, init) {
   });
   useEffect(() => { try { localStorage.setItem(key, JSON.stringify(v)); } catch {} }, [key, v]);
   return [v, set];
+}
+
+const DAYS = [
+  { key: "mon", label: "M" },
+  { key: "tue", label: "T" },
+  { key: "wed", label: "W" },
+  { key: "thu", label: "T" },
+  { key: "fri", label: "F" },
+  { key: "sat", label: "S" },
+  { key: "sun", label: "S" },
+];
+
+function parseHM(s) {
+  const [h, m] = s.split(":").map(x => parseInt(x, 10));
+  return h * 60 + (m || 0);
+}
+
+function dayStatus(val) {
+  if (!val || val === "closed") return { kind: "closed" };
+  if (/appt|appointment/i.test(val)) return { kind: "appt", text: "by appt" };
+  const m = /^(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})$/.exec(val);
+  if (!m) return { kind: "open", text: val };
+  const from = parseHM(`${m[1]}:${m[2]}`);
+  const to = parseHM(`${m[3]}:${m[4]}`);
+  const fmt12 = (mins) => {
+    let h = Math.floor(mins / 60), mm = mins % 60;
+    const ap = h >= 12 ? "p" : "a";
+    h = ((h + 11) % 12) + 1;
+    return mm ? `${h}:${String(mm).padStart(2,'0')}${ap}` : `${h}${ap}`;
+  };
+  return { kind: "open", text: `${fmt12(from)}–${fmt12(to)}`, from, to };
+}
+
+function todayKey(date = new Date()) {
+  const keys = ["sun","mon","tue","wed","thu","fri","sat"];
+  return keys[date.getDay()];
+}
+
+function openNow(hours, now = new Date()) {
+  if (!hours) return { label: "hours unknown", kind: "closed" };
+  const tk = todayKey(now);
+  const st = dayStatus(hours[tk]);
+  if (st.kind === "closed") return { label: "closed today", kind: "closed" };
+  if (st.kind === "appt") return { label: "by appt today", kind: "appt" };
+  const mins = now.getHours() * 60 + now.getMinutes();
+  if (mins < st.from) return { label: `opens ${st.text.split("–")[0]}`, kind: "closed" };
+  if (mins >= st.to) return { label: "closed now", kind: "closed" };
+  const left = st.to - mins;
+  if (left <= 60) return { label: `closes in ${left}m`, kind: "open" };
+  const closeHM = st.text.split("–")[1];
+  return { label: `open · until ${closeHM}`, kind: "open" };
+}
+
+function HoursBlock({ lo }) {
+  if (!lo) return null;
+  const { hours, phone, notes, by_appointment, source } = lo;
+  const todayK = todayKey();
+  const status = openNow(hours);
+  return (
+    <div className="hours">
+      <div className="head">
+        <span>leasing office</span>
+        <span className={`status-now ${status.kind}`}>{status.label}</span>
+      </div>
+      <div className="week">
+        {DAYS.map(d => {
+          const st = hours ? dayStatus(hours[d.key]) : { kind: "closed" };
+          const cls = `day ${st.kind} ${d.key === todayK ? 'today' : ''}`;
+          const short = st.kind === "open" ? st.text.split("–").map(x => x.replace(/:00/,'')).join("–") : (st.kind === "appt" ? "appt" : "—");
+          return (
+            <div key={d.key} className={cls} title={hours ? (hours[d.key] || 'closed') : 'unknown'}>
+              <span className="d">{d.label}</span>
+              <span className="h">{short}</span>
+            </div>
+          );
+        })}
+      </div>
+      {(phone || notes) && (
+        <div className="phone">
+          {phone && <a href={`tel:${phone.replace(/[^0-9+]/g,'')}`}>📞 {phone}</a>}
+          {by_appointment && !notes && <span style={{marginLeft:8}}>· tours by appt</span>}
+        </div>
+      )}
+      {notes && <div className="notes">{notes}</div>}
+    </div>
+  );
 }
 
 function PhotoReel({ photos, name }) {
@@ -249,6 +361,8 @@ function Card({ l, eliminated, fav, onKill, onRestore, onFav }) {
         )}
 
         {l.safety_notes && <div className="safety">{l.safety_notes}</div>}
+
+        <HoursBlock lo={l.leasing_office} />
 
         <div className="actions">
           <a className="btn primary" href={l.listing_url} target="_blank" rel="noopener">View listing ↗</a>

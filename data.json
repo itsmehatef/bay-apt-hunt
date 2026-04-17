@@ -50,7 +50,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/berkeley/aquatic-higby",
           "contact": "https://www.liveaquatichigby.com/ ; managed by Greystar",
-          "available_date": "2026-05-15"
+          "available_date": "2026-05-15",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "11:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Mon-Fri block (9-6) extrapolated to individual weekdays. Verified on Greystar property page.",
+            "phone": "(510) 698-5084",
+            "source": "https://www.greystar.com/aquatic-higby-berkeley-ca/p_17392"
+          }
         },
         {
           "id": "parker-studio-greystar",
@@ -96,7 +112,23 @@
           ],
           "listing_url": "https://www.greystar.com/parker-berkeley-ca/p_14014",
           "contact": "https://www.parkerberkeley.com/ ; managed by Greystar",
-          "available_date": "2026-05-10"
+          "available_date": "2026-05-10",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "09:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Mon-Sat block (9-6) extrapolated to individual days. Verified on Greystar property page.",
+            "phone": "(510) 665-1000",
+            "source": "https://www.greystar.com/parker-berkeley-ca/p_14014"
+          }
         },
         {
           "id": "aquatic-fourth-street-studio",
@@ -142,7 +174,23 @@
           ],
           "listing_url": "https://www.greystar.com/aquatic-fourth-street-berkeley-ca/p_19323",
           "contact": "https://www.aquaticfourthstreet.com/ ; managed by Greystar",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "09:00-18:00",
+              "sun": "10:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Mon-Sat block (9-6) extrapolated to individual days. Open 7 days. Verified on Greystar property page.",
+            "phone": "(510) 250-2404",
+            "source": "https://www.greystar.com/aquatic-fourth-street-berkeley-ca/p_19323"
+          }
         },
         {
           "id": "hillside-village-studio-greystar",
@@ -187,8 +235,24 @@
             "https://s7d9.scene7.com/is/image/greystarprod/11968CLB1"
           ],
           "listing_url": "https://www.greystar.com/hillside-village-berkeley-ca/p_11968",
-          "contact": "https://www.hillsidevillageberkeley.com/ ; (510) 665-4000 ; managed by Greystar. Note: 0 units currently listed on apartmentlist \u2014 call directly for upcoming availability.",
-          "available_date": null
+          "contact": "https://www.hillsidevillageberkeley.com/ ; (510) 248-4387 ; managed by Greystar. Note: 0 units currently listed on apartmentlist \u2014 call directly for upcoming availability.",
+          "available_date": null,
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-17:00",
+              "tue": "09:00-17:00",
+              "wed": "09:00-17:00",
+              "thu": "09:00-17:00",
+              "fri": "09:00-17:00",
+              "sat": "closed",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Mon-Fri block (9-5) extrapolated to individual weekdays. Weekends closed. Verified on Greystar property page. (Prior contact field listed 510-665-4000; current Greystar-listed leasing number is 510-248-4387.)",
+            "phone": "(510) 248-4387",
+            "source": "https://www.greystar.com/hillside-village-berkeley-ca/p_11968"
+          }
         },
         {
           "id": "the-durant-greystar-studio",
@@ -234,7 +298,23 @@
           ],
           "listing_url": "https://www.greystar.com/the-durant-berkeley-ca/p_17648",
           "contact": "thedurant@greystar.com ; https://www.livethedurant.com/ ; managed by Greystar. Student-focused \u2014 confirm non-student lease options and pet fees.",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "10:00-16:00",
+              "tue": "10:00-16:00",
+              "wed": "10:00-16:00",
+              "thu": "10:00-16:00",
+              "fri": "10:00-16:00",
+              "sat": "closed",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Mon-Fri block (10-4) extrapolated to individual weekdays. Weekends closed. Narrow hours typical of student-focused housing. Verified on Greystar property page and livethedurant.com.",
+            "phone": "(510) 996-4559",
+            "source": "https://www.greystar.com/the-durant-berkeley-ca/p_17648"
+          }
         }
       ]
     },
@@ -287,7 +367,23 @@
           ],
           "listing_url": "https://delnorteplace.mgproperties.com/floorplans",
           "contact": "(844) 630-7028",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-17:00",
+              "tue": "09:00-17:00",
+              "wed": "12:00-17:00",
+              "thu": "09:00-17:00",
+              "fri": "09:00-17:00",
+              "sat": "closed",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Wed opens at noon. Closed weekends. Call to schedule weekend tours.",
+            "phone": "(844) 630-7028",
+            "source": "https://delnorteplace.mgproperties.com/contactus"
+          }
         },
         {
           "id": "mayfair-station",
@@ -333,7 +429,23 @@
           ],
           "listing_url": "https://www.mayfairstation.com/station-mayfair-station-el-cerrito-ca/floorplans",
           "contact": "(510) 519-5681",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "08:00-17:00",
+              "tue": "08:00-18:00",
+              "wed": "08:00-18:00",
+              "thu": "08:00-18:00",
+              "fri": "08:00-18:00",
+              "sat": "08:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Monday closes an hour earlier (5 PM). Tue-Sat 8-6.",
+            "phone": "(510) 519-5681",
+            "source": "https://www.mayfairstation.com/station-mayfair-station-el-cerrito-ca/contact"
+          }
         },
         {
           "id": "mayfair-station-studio",
@@ -376,7 +488,23 @@
           ],
           "listing_url": "https://www.mayfairstation.com/station-mayfair-station-el-cerrito-ca/floorplans",
           "contact": "(510) 519-5681",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "08:00-17:00",
+              "tue": "08:00-18:00",
+              "wed": "08:00-18:00",
+              "thu": "08:00-18:00",
+              "fri": "08:00-18:00",
+              "sat": "08:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Same building/office as 1BR listing. Monday closes at 5 PM.",
+            "phone": "(510) 519-5681",
+            "source": "https://www.mayfairstation.com/station-mayfair-station-el-cerrito-ca/contact"
+          }
         },
         {
           "id": "village-town-center",
@@ -422,7 +550,23 @@
           ],
           "listing_url": "https://www.villagetowncenter.com/floorplans/",
           "contact": "(510) 924-4188",
-          "available_date": "2026-05-22"
+          "available_date": "2026-05-22",
+          "leasing_office": {
+            "hours": {
+              "mon": "closed",
+              "tue": "09:00-17:30",
+              "wed": "09:00-17:30",
+              "thu": "09:00-17:30",
+              "fri": "09:00-17:30",
+              "sat": "09:00-17:30",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Closed Sun/Mon. Property website does not publish hours; hours per apartments.com listing. Recommend calling to confirm.",
+            "phone": "(510) 924-4188",
+            "source": "https://www.apartments.com/the-village-at-town-center-el-cerrito-ca/vk9zcgf/"
+          }
         },
         {
           "id": "portola-arms",
@@ -466,7 +610,23 @@
           ],
           "listing_url": "https://www.zillow.com/apartments/el-cerrito-ca/portola-arms/9NP2p4/",
           "contact": "(510) 280-5050 / vacancies@kasaproperties.com",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "10:00-17:00",
+              "tue": "10:00-17:00",
+              "wed": "10:00-17:00",
+              "thu": "10:00-17:00",
+              "fri": "10:00-17:00",
+              "sat": "by appointment",
+              "sun": "by appointment"
+            },
+            "by_appointment": true,
+            "timezone": "PT",
+            "notes": "No on-site leasing office. Managed remotely by Kasa Properties from their Berkeley office at 2709 Dwight Way (Mon-Fri 10-5, walk-ins welcome). Property tours at 6615 Schmidt Ln are by appointment only - email vacancies@kasaproperties.com or call to schedule.",
+            "phone": "(510) 280-5050",
+            "source": "https://www.yelp.com/biz/kasa-properties-berkeley"
+          }
         }
       ]
     },
@@ -550,7 +710,23 @@
           ],
           "listing_url": "https://maccommons.com/",
           "contact": "(510) 228-4131",
-          "available_date": "2026-05-02"
+          "available_date": "2026-05-02",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "10:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Weekday block 9-6, weekend block 10-5 per official contact page.",
+            "phone": "(510) 228-4131",
+            "source": "https://maccommons.com/contact/"
+          }
         },
         {
           "id": "3900-adeline",
@@ -627,7 +803,23 @@
           ],
           "listing_url": "https://www.3900adeline.com/",
           "contact": "(510) 653-3900",
-          "available_date": "2026-05-08"
+          "available_date": "2026-05-08",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-17:00",
+              "tue": "09:00-17:00",
+              "wed": "09:00-17:00",
+              "thu": "09:00-17:00",
+              "fri": "09:00-17:00",
+              "sat": "by appointment",
+              "sun": "by appointment"
+            },
+            "by_appointment": true,
+            "timezone": "PT",
+            "notes": "Weekdays 9-5 walk-in; weekends by appointment only per Madison Park listing.",
+            "phone": "(510) 653-3900",
+            "source": "https://www.3900adeline.com/contactus"
+          }
         },
         {
           "id": "parc-on-powell",
@@ -686,7 +878,23 @@
           ],
           "listing_url": "https://www.equityapartments.com/san-francisco-bay/emeryville/parc-on-powell-apartments",
           "contact": "(510) 984-2451",
-          "available_date": "2026-06-12"
+          "available_date": "2026-06-12",
+          "leasing_office": {
+            "hours": {
+              "mon": "closed",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "09:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Closed Mon and Sun; tours scheduled via Equity portal.",
+            "phone": "(510) 984-2451",
+            "source": "https://www.equityapartments.com/san-francisco-bay/emeryville/parc-on-powell-apartments"
+          }
         },
         {
           "id": "artistry-emeryville",
@@ -751,7 +959,23 @@
           "listing_url": "https://www.equityapartments.com/san-francisco-bay/emeryville/artistry-emeryville-apartments",
           "contact": "(510) 900-3390",
           "available_date": "2026-05-22",
-          "budget_flag": "Slightly over the $2,300 hard cap at $2,391 asking. Including because Equity waived rent on this floor plan in Q4 '25 and cap concessions/look-and-lease can drop effective rent under $2,200."
+          "budget_flag": "Slightly over the $2,300 hard cap at $2,391 asking. Including because Equity waived rent on this floor plan in Q4 '25 and cap concessions/look-and-lease can drop effective rent under $2,200.",
+          "leasing_office": {
+            "hours": {
+              "mon": "closed",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "09:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Closed Mon and Sun; standard Equity schedule.",
+            "phone": "(510) 900-3390",
+            "source": "https://www.equityapartments.com/san-francisco-bay/emeryville/artistry-emeryville-apartments"
+          }
         },
         {
           "id": "4801-shattuck",
@@ -803,7 +1027,23 @@
           "listing_url": "https://liveat4801shattuck.com/",
           "contact": "(844) 343-4356",
           "available_date": "2026-05-21",
-          "budget_flag": "Fits MacArthur BART corridor loosely - it's a 28-min walk to MacArthur but only 12 min to Rockridge BART. Flag for the user."
+          "budget_flag": "Fits MacArthur BART corridor loosely - it's a 28-min walk to MacArthur but only 12 min to Rockridge BART. Flag for the user.",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-17:00",
+              "tue": "09:00-17:00",
+              "wed": "09:00-17:00",
+              "thu": "09:00-17:00",
+              "fri": "09:00-17:00",
+              "sat": "by appointment",
+              "sun": "closed"
+            },
+            "by_appointment": true,
+            "timezone": "PT",
+            "notes": "Weekdays 9-5 walk-in; Saturday by appointment only; closed Sunday.",
+            "phone": "(844) 343-4356",
+            "source": "https://liveat4801shattuck.com/contact/"
+          }
         }
       ],
       "screened_out": [
@@ -884,7 +1124,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/oakland/channel-house",
           "contact": "See channelhouseoakland.com leasing contact form",
-          "available_date": "2026-04-22"
+          "available_date": "2026-04-22",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-17:00",
+              "tue": "09:00-17:00",
+              "wed": "09:00-17:00",
+              "thu": "09:00-17:00",
+              "fri": "09:00-17:00",
+              "sat": "09:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Hours aggregated from third-party listings (Yelp, apartments.com, RentCafe); confirm by phone before visiting.",
+            "phone": "(510) 907-6010",
+            "source": "https://www.yelp.com/biz/channel-house-oakland-2"
+          }
         },
         {
           "id": "lydian-studio-s1",
@@ -930,7 +1186,23 @@
           ],
           "listing_url": "https://www.hollandresidential.com/ca/oakland/lydian",
           "contact": "(510) 756-3677",
-          "available_date": "2026-07-05"
+          "available_date": "2026-07-05",
+          "leasing_office": {
+            "hours": {
+              "mon": "closed",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "10:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Closed Mon and Sun. Walk-ins welcome; tours also available by appointment.",
+            "phone": "(510) 756-3677",
+            "source": "https://www.hollandresidential.com/ca/oakland/lydian/contact-us"
+          }
         },
         {
           "id": "residences-lake-merritt-studio-e1b",
@@ -970,7 +1242,23 @@
           ],
           "listing_url": "https://www.udr.com/san-francisco-bay-area-apartments/lakeside/residences-at-lake-merritt/",
           "contact": "(510) 916-2441",
-          "available_date": "2026-05-26"
+          "available_date": "2026-05-26",
+          "leasing_office": {
+            "hours": {
+              "mon": "closed",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "10:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Closed Mon and Sun. UDR typically offers self-guided and virtual tours outside leasing hours \u2014 call to arrange.",
+            "phone": "(510) 916-2441",
+            "source": "https://www.udr.com/san-francisco-bay-area-apartments/lakeside/residences-at-lake-merritt/contact-us/"
+          }
         },
         {
           "id": "the-grand-melbourne-studio",
@@ -1009,7 +1297,23 @@
           ],
           "listing_url": "https://www.essexapartmenthomes.com/apartments/oakland/the-grand",
           "contact": "(510) 455-8765",
-          "available_date": "2026-05-07"
+          "available_date": "2026-05-07",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "09:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Wednesday opens later at 10:00. Sources vary between Sun-closed and Sun 9-6 \u2014 confirm by phone for Sunday visits.",
+            "phone": "(510) 455-8765",
+            "source": "https://www.thegrandoakland.com/"
+          }
         },
         {
           "id": "vespr-studio-s1",
@@ -1054,7 +1358,23 @@
           ],
           "listing_url": "https://www.hollandresidential.com/ca/oakland/vespr",
           "contact": "(925) 744-8791",
-          "available_date": "2026-05-01"
+          "available_date": "2026-05-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "10:00-18:00",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "10:00-18:00",
+              "sun": "10:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Open 7 days; Sunday closes earlier at 17:00. Holland Residential's direct line for VESPR is (925) 578-2515; listing contact (925) 744-8791 also routes to leasing.",
+            "phone": "(925) 578-2515",
+            "source": "https://www.hollandresidential.com/ca/oakland/vespr/contact-us"
+          }
         }
       ]
     },
@@ -1107,7 +1427,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/oakland/macarthur-commons--2",
           "contact": "(510) 228-4131 | maccommons.com",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "10:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Tours can be booked online via 'Book a Tour'; walk-ins accepted during posted hours.",
+            "phone": "(510) 228-4131",
+            "source": "https://maccommons.com/contact"
+          }
         },
         {
           "id": "macarthur-commons-jr-1br-b",
@@ -1152,7 +1488,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/oakland/macarthur-commons--2",
           "contact": "(510) 228-4131 | maccommons.com",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "10:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Tours can be booked online via 'Book a Tour'; walk-ins accepted during posted hours.",
+            "phone": "(510) 228-4131",
+            "source": "https://maccommons.com/contact"
+          }
         },
         {
           "id": "macarthur-commons-1br-d",
@@ -1196,7 +1548,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/oakland/macarthur-commons--2",
           "contact": "(510) 228-4131 | maccommons.com",
-          "available_date": "2026-06-07"
+          "available_date": "2026-06-07",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "10:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Tours can be booked online via 'Book a Tour'; walk-ins accepted during posted hours.",
+            "phone": "(510) 228-4131",
+            "source": "https://maccommons.com/contact"
+          }
         },
         {
           "id": "baxter-on-broadway-studio-sb",
@@ -1242,7 +1610,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/oakland/baxter-on-broadway--2",
           "contact": "(844) 296-5334 | baxteronbroadway.com",
-          "available_date": "2026-06-01"
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "09:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Website states 'Open Monday-Saturday 9am-6pm'; closed Sundays. Walk-ins welcome, but calling ahead is advisable.",
+            "phone": "(866) 309-2726",
+            "source": "https://www.baxteronbroadway.com/contact/"
+          }
         },
         {
           "id": "baxter-on-broadway-1br-oa",
@@ -1288,7 +1672,23 @@
           ],
           "listing_url": "https://www.apartmentlist.com/ca/oakland/baxter-on-broadway--2",
           "contact": "(844) 296-5334 | baxteronbroadway.com",
-          "available_date": "2026-05-12"
+          "available_date": "2026-05-12",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "09:00-18:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Website states 'Open Monday-Saturday 9am-6pm'; closed Sundays. Walk-ins welcome, but calling ahead is advisable.",
+            "phone": "(866) 309-2726",
+            "source": "https://www.baxteronbroadway.com/contact/"
+          }
         }
       ]
     }
