@@ -164,7 +164,7 @@
           "bed": "Studio",
           "rent_monthly": 2572,
           "concessions": "Up to 4 weeks free base rent on select units (reduced from prior 4-6 weeks)",
-          "concession_note": "Concession band narrowed to up-to-4 weeks free as of 2026-04-18",
+          "concession_note": "Audit: site currently shows 'no specials' \u2014 concession likely pulled. If so, eff rent = base $2,572.",
           "effective_rent": 2374,
           "sqft": 557,
           "floor_plan": {
@@ -312,7 +312,7 @@
           "bed": "Studio",
           "rent_monthly": 1800,
           "concessions": "Special rates advertised on studios (unpublished; contact office for rate)",
-          "concession_note": "Property site lists 'Special Rates! Limited-time offer' on all studio plans but does not publish rent; effective rate unverifiable publicly as of 2026-04-18",
+          "concession_note": "\u26a0 AUDIT FLAG: The $1,800 / S3 / 330sf combo doesn't match public sources (S1 330sf \u2248 $3,050; S2 460sf shared \u2248 $1,800). Likely a shared-bedroom arrangement, not a private studio. Verify before touring.",
           "effective_rent": 1800,
           "sqft": 330,
           "floor_plan": {
@@ -613,7 +613,7 @@
           "rent_monthly": 2360,
           "concessions": null,
           "effective_rent": 2360,
-          "concession_note": "Concession no longer advertised as of 2026-04-18 (villagetowncenter.com/specials/ page now empty; previous $1,500 gift card offer removed).",
+          "concession_note": "Audit confirms $1,500 gift card is no longer advertised. Current plan name is 'The Laguna'. Current rent $2,360 stands.",
           "verified_at": "2026-04-18",
           "floor_plan": {
             "name": "1 Bedroom",
@@ -765,9 +765,9 @@
           "neighborhood": "Temescal / MacArthur BART",
           "bed": "Studio and Jr. 1BR (multiple units)",
           "rent_monthly": 2251,
-          "concessions": null,
-          "effective_rent": 2251,
-          "concession_note": "Concession no longer advertised as of 2026-04-18 (no specials banner on site; prior '6 weeks free + $1,000 look-and-lease' offer appears expired \u2014 call leasing to confirm any unpublished specials).",
+          "concessions": "6 weeks free + $1,000 look-and-lease",
+          "effective_rent": 1968,
+          "concession_note": "Audit: concession is LIVE per syndicated mirrors, but 4/30 deadline applies \u2014 call (510) 228-4131 to verify it applies to June 1 move-in.",
           "sqft": 600,
           "verified_at": "2026-04-18",
           "floor_plan": {
@@ -882,9 +882,9 @@
           "neighborhood": "Emeryville (Longfellow border)",
           "bed": "Studio / 1BR (multiple units)",
           "rent_monthly": 2255,
-          "concessions": null,
-          "effective_rent": 2255,
-          "concession_note": "Concession no longer advertised as of 2026-04-18 (property site could not be verified on 2026-04-18 \u2014 returns 403 to automated fetch; prior '1 month free + $1,200 look-and-lease' offer treated as stale. Call leasing at (510) 653-3900 to confirm any current promotion.)",
+          "concessions": "1 month free + $1,200 look-and-lease",
+          "effective_rent": 1967,
+          "concession_note": "Audit: concession is LIVE per apartmentlist (property site 403s automated fetches). Confirm by phone.",
           "sqft": 599,
           "verified_at": "2026-04-18",
           "floor_plan": {
@@ -1206,7 +1206,7 @@
           "rent_monthly": 1853,
           "concessions": null,
           "effective_rent": 1853,
-          "concession_note": "No concession banner visible on site as of 2026-04-18. Call leasing at (844) 343-4356 to ask about any unadvertised look-and-lease credits.",
+          "concession_note": "Audit: a '1 mo free + $500 LAL' banner exists on listing aggregators \u2014 scope unclear. If it applies, true eff drops to ~$1,699. Call to confirm.",
           "sqft": 404,
           "verified_at": "2026-04-18",
           "floor_plan": {
@@ -1539,7 +1539,7 @@
           "bed": "Studio",
           "rent_monthly": 2155,
           "concessions": "Up to 6 Weeks Free on select homes plus an additional $1,000 off when you move in by 04/24/26 (restrictions apply; 6 weeks free on select homes only)",
-          "effective_rent": 1823,
+          "effective_rent": 2155,
           "sqft": 650,
           "floor_plan": {
             "name": "S02",
@@ -1594,7 +1594,8 @@
             "notes": "Standard Mill Creek leasing hours; tours by appointment or walk-in. 24-hour concierge staffs the lobby outside leasing hours.",
             "phone": "(510) 257-9661",
             "source": "https://www.theuptownoakland.com/"
-          }
+          },
+          "concession_note": "Concession requires move-in by 4/24/26 \u2014 INVALID for a June 1 lease. Effective rent reverts to base $2,155."
         },
         {
           "id": "bell-uptown-district-studio",
@@ -1605,7 +1606,7 @@
           "bed": "Studio",
           "rent_monthly": 2111,
           "concessions": "Move in by April 30th and get $1,500 off your first full month of rent (contact leasing office for details)",
-          "effective_rent": 1986,
+          "effective_rent": 2111,
           "sqft": 520,
           "floor_plan": {
             "name": "S1B",
@@ -1667,7 +1668,8 @@
             "notes": "Closed weekends per Bell Partners site \u2014 weekend tours available strictly by appointment. Alternate direct line per Apartment List: (510) 879-5422.",
             "phone": "(833) 238-9719",
             "source": "https://www.belluptowndistrict.com/contact/"
-          }
+          },
+          "concession_note": "Concession requires move-in by 4/30/26 \u2014 INVALID for a June 1 lease. Effective rent reverts to base $2,111."
         }
       ]
     },
@@ -1815,7 +1817,8 @@
             "notes": "Closed Mon and Sun. Walk-ins welcome; tours also available by appointment.",
             "phone": "(510) 756-3677",
             "source": "https://www.hollandresidential.com/ca/oakland/lydian/contact-us"
-          }
+          },
+          "concession_note": "Audit: a cheaper $1,849 S1 unit exists at Lydian \u2014 ask leasing about unit #3 or lowest-priced S1."
         },
         {
           "id": "residences-lake-merritt-studio-e1b",
@@ -1892,9 +1895,9 @@
           "address": "100 Grand Ave, Oakland, CA 94612",
           "neighborhood": "Northgate / Grand Ave (between Uptown and Lake Merritt)",
           "bed": "Studio",
-          "rent_monthly": 2263,
+          "rent_monthly": 1957,
           "concessions": "Lock in 18-month lease to secure rate (select units); no free-rent concession currently",
-          "effective_rent": 2263,
+          "effective_rent": 1957,
           "sqft": 457,
           "floor_plan": {
             "name": "The Melbourne",
@@ -1949,7 +1952,8 @@
             "notes": "Wednesday opens later at 10:00. Sources vary between Sun-closed and Sun 9-6 \u2014 confirm by phone for Sunday visits.",
             "phone": "(510) 455-8765",
             "source": "https://www.thegrandoakland.com/"
-          }
+          },
+          "rent_updated_note": "Audit found current Melbourne-plan unit listed at $1,957 (was $2,263). 18-mo rate-lock available; no upfront concession."
         },
         {
           "id": "vespr-studio-s1",
@@ -2021,7 +2025,8 @@
             "notes": "Open 7 days; Sunday closes earlier at 17:00. Holland Residential's direct line for VESPR is (925) 578-2515; listing contact (925) 744-8791 also routes to leasing.",
             "phone": "(925) 578-2515",
             "source": "https://www.hollandresidential.com/ca/oakland/vespr/contact-us"
-          }
+          },
+          "concession_note": "Audit: the 4-wks-free and $1k look-and-lease may STACK \u2014 if so, true eff rent ~$2,132. Call to confirm stacking policy."
         }
       ]
     },
@@ -2101,7 +2106,8 @@
             "notes": "Tours can be booked online via 'Book a Tour'; walk-ins accepted during posted hours.",
             "phone": "(510) 228-4131",
             "source": "https://maccommons.com/contact"
-          }
+          },
+          "concession_note": "Concession deadline 4/30/26 \u2014 call (510) 228-4131 to confirm it applies to a June 1 move-in. If not, eff rent reverts to base."
         },
         {
           "id": "macarthur-commons-jr-1br-b",
@@ -2173,7 +2179,8 @@
             "notes": "Tours can be booked online via 'Book a Tour'; walk-ins accepted during posted hours.",
             "phone": "(510) 228-4131",
             "source": "https://maccommons.com/contact"
-          }
+          },
+          "concession_note": "Concession deadline 4/30/26 \u2014 call (510) 228-4131 to confirm it applies to a June 1 move-in. If not, eff rent reverts to base."
         },
         {
           "id": "macarthur-commons-1br-d",
@@ -2244,7 +2251,8 @@
             "notes": "Tours can be booked online via 'Book a Tour'; walk-ins accepted during posted hours.",
             "phone": "(510) 228-4131",
             "source": "https://maccommons.com/contact"
-          }
+          },
+          "concession_note": "Concession deadline 4/30/26 \u2014 call (510) 228-4131 to confirm it applies to a June 1 move-in. If not, eff rent reverts to base."
         },
         {
           "id": "baxter-on-broadway-studio-sb",
