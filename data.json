@@ -1082,6 +1082,309 @@
       ]
     },
     {
+      "area": "Lake Merritt (Round 2)",
+      "generated_at": "2026-04-17",
+      "notes": "Round 2 sweep of the Lake Merritt / Adams Point / Grand Lake corridor, widened to include Koreatown-Northgate and Uptown (east of Broadway) but staying within ~0.6 mi of 19th St BART. All five picks are professionally managed (SRG, Greystar/Wood Partners, Sares-Regis, Mill Creek, Bell Partners), all allow 2 cats, all have in-unit dishwasher + washer/dryer. Rents are listed at base + effective-after-concession; concessions are current specials that, when prorated over a 12-month term, bring each effective rent under the $2,300 ceiling. No duplicates with Round 1 (Channel House, Lydian, Residences at Lake Merritt, The Grand, VESPR). Candidates excluded: Alexan Webster (policy text explicitly states no pets); Atlas Oakland (pricing well above cap); MacArthur Commons (~1.6 mi from 19th St BART, outside radius); Modera Lake Merritt (rebranded/consolidated into UDR's Residences at Lake Merritt \u2014 dup); 1800 Madison / The Lake Merritt Apartments (Vaughn Management \u2014 smaller operator; only portable countertop dishwashers, no built-in); Lake Merritt Apartments at 1417 1st Ave (east-of-lake / San Antonio neighborhood \u2014 outside the safety box). Supply of new, professionally-managed buildings within the radius is now largely exhausted; remaining inventory is mostly small private/owner-operated triplexes on Perkins/Vernon/Bellevue.",
+      "listings": [
+        {
+          "id": "19th-and-harrison-studio-s2",
+          "name": "19th & Harrison",
+          "company": "SRG Residential",
+          "address": "1889 Harrison St, Oakland, CA 94612",
+          "neighborhood": "Lakeside / Lake Merritt (directly across Snow Park from the lake)",
+          "bed": "Studio",
+          "rent_monthly": 2255,
+          "concessions": "Up to 4 Weeks Free + up to $2,000 Look-and-Lease credit applied in month two (select units, restrictions apply)",
+          "effective_rent": 1916,
+          "sqft": 481,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": false,
+            "patio": null,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 65,
+            "pet_deposit": 600,
+            "notes": "Cats and dogs welcome, max 2 pets per home. $65/mo pet rent, $600 deposit. Aggressive dog breeds prohibited (does not affect cat owners)."
+          },
+          "bart": {
+            "station": "Lake Merritt / 19th St Oakland",
+            "distance_mi": 0.3,
+            "walk_min": 6
+          },
+          "safety_notes": "Lakeside corridor fronting Snow Park and the north shore of Lake Merritt \u2014 one of the safest, highest-foot-traffic blocks in Oakland. Building has controlled access and 24/7 fitness studio / rooftop lounge.",
+          "photos": [
+            "https://liveat19th.com/assets/images/cache/DSC_2681-96c035174ea85bf920cceb9420b2b645.jpg",
+            "https://liveat19th.com/assets/images/cache/19_f8-38474-47606-19_LE_upscale_prime-63a356e5211238ce38e210170f603716.jpg",
+            "https://liveat19th.com/assets/images/cache/29_f8-38474-47606-29_LE_upscale_prime-233e505ac9be2f955fb0e21f502a59e3.jpg",
+            "https://liveat19th.com/assets/images/cache/19th-and-Harrison_Exteriors_0361-59f7ba0078737184f5440d7e288b9cf8.jpg",
+            "https://liveat19th.com/assets/images/cache/19th-and-Harrison_Models_034-92fdfa4930651bff1b65d3e04d703d99.jpg",
+            "https://liveat19th.com/assets/images/cache/DSC03708_LE_upscale_prime-1336cb1354343700bd75520194d16e5f.jpg",
+            "https://liveat19th.com/assets/images/cache/DSC03796_LE_upscale_prime-edf0a53370239f8337564f50d1f1215a.jpg",
+            "https://liveat19th.com/assets/images/cache/DSC03860-copy_LE_upscale_prime-2cddad95be5a77cc5050a40f306d8bc7.jpg"
+          ],
+          "listing_url": "https://liveat19th.com/floorplans/",
+          "contact": "(833) 410-1223",
+          "available_date": "2026-06-01",
+          "leasing_office": {
+            "hours": {
+              "mon": "10:00-18:00",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "SRG-standard leasing hours; closed Sunday. Tours also available by appointment via scheduling link on liveat19th.com. No on-site resident parking \u2014 garage permit parking at nearby Kaiser / city lots.",
+            "phone": "(833) 410-1223",
+            "source": "https://liveat19th.com/"
+          }
+        },
+        {
+          "id": "alta-waverly-studio-s1-2",
+          "name": "Alta Waverly",
+          "company": "Greystar (managed in partnership with Wood Residential / Wood Partners)",
+          "address": "2302 Valdez St, Oakland, CA 94612",
+          "neighborhood": "Koreatown-Northgate / Uptown (two blocks from Whole Foods, four blocks from Lake Merritt)",
+          "bed": "Studio",
+          "rent_monthly": 2401,
+          "concessions": "Up to 2 Weeks Free + $500 Look-and-Lease off base rent (select units; a larger 8-weeks-free offer has also been advertised on third-party listings but the leasing office currently confirms 2 weeks free + $500 as the active promo)",
+          "effective_rent": 2270,
+          "sqft": 517,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": null,
+            "pet_deposit": null,
+            "notes": "Cats and dogs welcome, max 2 pets per unit. Rooftop dog run and dog-wash station on-site. Contact leasing for exact fees (standard Greystar: $50/mo pet rent, $500 deposit)."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.3,
+            "walk_min": 6
+          },
+          "safety_notes": "Valdez St between 23rd-24th \u2014 active mixed-use block across from Sprouts / Whole Foods. Controlled-access podium building with rooftop amenities, generally very safe, well-lit nightlife corridor.",
+          "photos": [
+            "https://www.altawaverly.com/wp-content/uploads/2019/04/Alta-Waverly-Roof.jpg",
+            "https://www.altawaverly.com/wp-content/uploads/2019/04/Alta-Waverly-Gym.jpg",
+            "https://www.altawaverly.com/wp-content/uploads/2019/10/WP-AltaWaverly-FULL25-1103_edit-WEB.jpg",
+            "https://www.altawaverly.com/wp-content/uploads/2019/10/WP-AltaWaverly-FULL25-1088_edit-HR.jpg",
+            "https://www.altawaverly.com/wp-content/uploads/2019/10/WP-AltaWaverly-FULL25-1106_edit-WEB.jpg",
+            "https://www.altawaverly.com/wp-content/uploads/2019/10/WP-AltaWaverly-FULL25-1112_edit-WEB.jpg",
+            "https://www.altawaverly.com/wp-content/uploads/2019/10/WP-AltaWaverly-FULL25-1043_edit-HR.jpg",
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/a1ca14d3e4d10536c4bf4c7d8d249f46.jpg"
+          ],
+          "listing_url": "https://www.greystar.com/alta-waverly-oakland-ca/p_21318",
+          "contact": "(844) 539-0920",
+          "available_date": "2026-05-15",
+          "leasing_office": {
+            "hours": {
+              "mon": "10:00-18:00",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "10:00-18:00",
+              "sun": "12:00-17:00"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Open 7 days. Sunday hours are 12-5 only. Alternate leasing line: (833) 576-8279.",
+            "phone": "(844) 539-0920",
+            "source": "https://www.altawaverly.com/"
+          }
+        },
+        {
+          "id": "skaia-studio-c5",
+          "name": "SKAIA",
+          "company": "Sares-Regis Group",
+          "address": "330 17th St, Oakland, CA 94612",
+          "neighborhood": "Uptown / Downtown (right at 17th & Harrison, one block from 19th St BART)",
+          "bed": "Studio",
+          "rent_monthly": 2092,
+          "concessions": "Up to 4 Weeks Free on select floor plans",
+          "effective_rent": 1931,
+          "sqft": 517,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": 500,
+            "notes": "Cats and dogs welcome, max 2 pets per unit. $50/mo pet rent, $500 deposit. On-site dog run and dog grooming spa. Aggressive breeds prohibited (does not affect cat owners)."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.2,
+            "walk_min": 4
+          },
+          "safety_notes": "23-story full-service tower with 24-hour concierge and on-site security; block includes ground-floor retail and Snow Park / Lake Merritt two blocks east. Arguably the best on-site security profile in the area.",
+          "photos": [
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/43e3595d50c1c5822315f8f32b366891.jpg"
+          ],
+          "listing_url": "https://www.liveskaia.com/",
+          "contact": "(866) 575-1707",
+          "available_date": "2026-05-20",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Weekday hours per Rent.com listing. Direct/local leasing line (510) 500-9738 routes to the building; the (866) number is Sares-Regis central.",
+            "phone": "(510) 500-9738",
+            "source": "https://www.rentcafe.com/apartments/ca/oakland/skaia/default.aspx"
+          }
+        },
+        {
+          "id": "the-uptown-oakland-studio-s02",
+          "name": "The Uptown",
+          "company": "Mill Creek Residential",
+          "address": "500 William St, Oakland, CA 94612",
+          "neighborhood": "Uptown / Arts & Entertainment District (two blocks north of 19th St BART)",
+          "bed": "Studio",
+          "rent_monthly": 2155,
+          "concessions": "Up to 6 Weeks Free on select homes + $1,000 off (must move in by 2026-04-24; Mill Creek typically rolls concessions to the next month)",
+          "effective_rent": 1823,
+          "sqft": 650,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": null
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": 50,
+            "pet_deposit": null,
+            "notes": "Cats and dogs welcome, max 2 pets per home. $50/mo pet rent per pet. Aggressive breeds prohibited. PetScreening.com profile required."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.2,
+            "walk_min": 4
+          },
+          "safety_notes": "LEED-Silver 665-unit full-block community with landscaped courtyards and controlled-access entry. Block sits in the heart of Uptown's arts/entertainment district (Fox Theater, Paramount) \u2014 high evening foot traffic; safer than blocks west of Martin Luther King Jr Way.",
+          "photos": [
+            "https://cdn.apartmentlist.com/image/upload/c_fill,dpr_auto,f_auto,g_center,h_415,q_auto,w_640/24b73a921e909d34820a5c1cf6adcd0c.jpg"
+          ],
+          "listing_url": "https://www.theuptownoakland.com/",
+          "contact": "(510) 257-9661",
+          "available_date": "2026-05-25",
+          "leasing_office": {
+            "hours": {
+              "mon": "09:00-18:00",
+              "tue": "09:00-18:00",
+              "wed": "09:00-18:00",
+              "thu": "09:00-18:00",
+              "fri": "09:00-18:00",
+              "sat": "10:00-17:00",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Standard Mill Creek leasing hours; tours by appointment or walk-in. 24-hour concierge staffs the lobby outside leasing hours.",
+            "phone": "(510) 257-9661",
+            "source": "https://www.theuptownoakland.com/"
+          }
+        },
+        {
+          "id": "bell-uptown-district-studio",
+          "name": "Bell Uptown District",
+          "company": "Bell Partners, Inc.",
+          "address": "1801 Jefferson St, Oakland, CA 94612",
+          "neighborhood": "Uptown (two blocks west of 19th St BART, near Fox Theater)",
+          "bed": "Studio",
+          "rent_monthly": 2111,
+          "concessions": "Move-in by April 30 to get $1,500 off first full month's rent (concession historically rolls forward month-to-month; confirm with leasing for June move-in)",
+          "effective_rent": 1986,
+          "sqft": 520,
+          "amenities": {
+            "dishwasher": true,
+            "laundry_in_unit": true,
+            "laundry_shared": false,
+            "parking": true,
+            "patio": true,
+            "ac": true
+          },
+          "pet_policy": {
+            "cats_allowed": true,
+            "max_pets": 2,
+            "pet_rent_monthly": null,
+            "pet_deposit": null,
+            "notes": "Pet-friendly community with a dedicated 24/7 pet deck. Bell Partners standard policy is max 2 pets per home; cats welcome. Confirm exact fees with leasing (standard Bell: $50/mo pet rent, $500 deposit)."
+          },
+          "bart": {
+            "station": "19th St Oakland",
+            "distance_mi": 0.3,
+            "walk_min": 5
+          },
+          "safety_notes": "Jefferson at 18th/19th \u2014 Uptown corridor anchored by Fox Theater and Cathedral of Christ the Light. Block is on the western edge of the safer Uptown zone; stays east of the 14th/San Pablo concern area. Modern podium building with controlled access + 24-hr pet deck, Google Fiber.",
+          "photos": [
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Exterior-1_525x385.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Exterior-2_525x385.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Unit-3_525x385.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Unit-4_525x385.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Unit-8_x675.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Sixth-Floor-Lounge-1_525x385.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_GymInterior-2_525x385.jpg",
+            "https://www.belluptowndistrict.com/wp-content/uploads/sites/211/2024/01/BellUptownDistrict_Patio-1_x675.jpg"
+          ],
+          "listing_url": "https://www.belluptowndistrict.com/",
+          "contact": "(833) 238-9719",
+          "available_date": "2026-05-10",
+          "leasing_office": {
+            "hours": {
+              "mon": "10:00-18:00",
+              "tue": "10:00-18:00",
+              "wed": "10:00-18:00",
+              "thu": "10:00-18:00",
+              "fri": "10:00-18:00",
+              "sat": "closed",
+              "sun": "closed"
+            },
+            "by_appointment": false,
+            "timezone": "PT",
+            "notes": "Closed weekends per Bell Partners site \u2014 weekend tours available strictly by appointment. Alternate direct line per Apartment List: (510) 879-5422.",
+            "phone": "(833) 238-9719",
+            "source": "https://www.belluptowndistrict.com/contact/"
+          }
+        }
+      ]
+    },
+    {
       "area": "Lake Merritt / Adams Point / Grand Lake",
       "generated_at": "2026-04-17",
       "notes": "Adams Point proper is dominated by small privately-owned buildings (most lack dishwasher + 2-cat policy). The five picks below are all professionally-managed mid/high-rises within the Lake Merritt corridor \u2014 all within ~0.5 mi of 19th St, 12th St City Center, or Lake Merritt BART. Channel House (Jack London Sq) is technically ~0.5 mi south of Lake Merritt, included because its 10-weeks-free concession drops effective studio rent well under target and it is pet-friendly + fully amenitized. Photos verified on property/leasing-company CDNs (apartmentlist, myrazz, ctykit, udr global assets). Studios/1BRs only; all allow 2 cats + have in-unit dishwasher.",

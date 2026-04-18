@@ -124,7 +124,7 @@
   .loading .dot:nth-child(3) { animation-delay: .4s; }
   @keyframes pulse { 0%,60%,100% { opacity: 0.2; transform: scale(0.8);} 30% { opacity: 1; transform: scale(1); } }
 
-  .status-ring { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 16px 0; }
+  .status-ring { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; padding: 16px 0; }
   .status-ring .s { padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); font-size: 11px; color: var(--ink-2); }
   .status-ring .s b { display: block; color: var(--ink); font-size: 13px; font-weight: 600; margin-bottom: 2px; }
   .status-ring .s.done { border-left: 3px solid var(--ok); }
@@ -167,6 +167,7 @@ const { useState, useEffect, useMemo, useCallback } = React;
 
 const AREAS = [
   { key: "Lake Merritt / Adams Point / Grand Lake", short: "Lake Merritt", color: "#b8491f" },
+  { key: "Lake Merritt (Round 2)", short: "Lake Merritt +", color: "#d15a2a" },
   { key: "Rockridge / Temescal / Piedmont Ave", short: "Rockridge", color: "#c68b2b" },
   { key: "Berkeley (Downtown / North Berkeley BART)", short: "Berkeley", color: "#5a7a5f" },
   { key: "Emeryville / MacArthur BART", short: "Emeryville", color: "#4a6a88" },
@@ -382,7 +383,7 @@ function App() {
   const [data, setData] = useState(null);
   const [err, setErr] = useState(null);
 
-  const [areas, setAreas] = useLocalState("aptf.areas", AREAS.map(a => a.key));
+  const [areas, setAreas] = useLocalState("aptf.areas.v2", AREAS.map(a => a.key));
   const [features, setFeatures] = useLocalState("aptf.features", ["dishwasher"]);
   const [maxEff, setMaxEff] = useLocalState("aptf.maxEff", 2300);
   const [maxBart, setMaxBart] = useLocalState("aptf.maxBart", 1.0);
